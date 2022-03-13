@@ -26,3 +26,4 @@ links:: [Local library](zotero://select/library/items/QG539KZ2), [Web library](h
 	- ![A Gentle Introduction to Graph Neural Networks.pdf](../assets/A_Gentle_Introduction_to_Graph_Neural_Networks_1647182508093_0.pdf)
 	-
 - 本文是对图卷积的介绍，首先说明了图这种数据结构的代码表达形式，有点，边，全局以及邻接矩阵四部分。
+-
