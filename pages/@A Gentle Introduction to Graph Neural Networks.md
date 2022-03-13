@@ -25,4 +25,4 @@ links:: [Local library](zotero://select/library/items/QG539KZ2), [Web library](h
 	- [Snapshot](https://distill.pub/2021/gnn-intro/) {{zotero-imported-file 4A67WFK3, "gnn-intro.html"}}
 	- ![A Gentle Introduction to Graph Neural Networks.pdf](../assets/A_Gentle_Introduction_to_Graph_Neural_Networks_1647182508093_0.pdf)
 	-
--
+- 本文是对图卷积的介绍，因为
