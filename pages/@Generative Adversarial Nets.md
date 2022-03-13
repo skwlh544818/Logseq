@@ -20,4 +20,4 @@ links:: [Local library](zotero://select/library/items/4VKWL8QI), [Web library](h
 	- 生成器G的目的是产生出使判别器D分辨不出的图像，判别器D的目的是尽力分别出生成数据以及训练数据。相当于玩最大最小游戏，两者达到纳什平衡
 - 需要优化的价值函数
 	- $$\mathop{min}\limits_{G} \mathop{max}\limits_D V(D,G)=E_{x\sim P_{data}(x)}[logD(x)]+E_{z\sim P_z(z)}[log(1-D(G(z)))]$$
--
+- 该价值函数可以优化成KL散度，进而优化成JS散度，表明$P_{data}$和$P_G
