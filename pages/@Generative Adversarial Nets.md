@@ -19,5 +19,5 @@ links:: [Local library](zotero://select/library/items/4VKWL8QI), [Web library](h
 	- 判别器D：可以看成是一个二分类网络，生成网络生成的数据为0，训练数据为1。同样使用MLP网络，输入为一半生成数据一半训练数据，最后输出是训练数据的概率（0~1）。
 	- 生成器G的目的是产生出使判别器D分辨不出的图像，判别器D的目的是尽力分别出生成数据以及训练数据。相当于玩最大最小游戏，两者达到纳什平衡
 - 需要优化的价值函数
-- $$min_G max_D V(D,G)=E_{xP_{data}(x)}[logD(x)]+E_{z~P_z(z)}[log(1-D(G(z)))]$$
+- $$\mathop{min}\limits{G} max_D V(D,G)=E_{xP_{data}(x)}[logD(x)]+E_{z~P_z(z)}[log(1-D(G(z)))]$$
 -
