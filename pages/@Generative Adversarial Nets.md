@@ -11,4 +11,5 @@ links:: [Local library](zotero://select/library/items/4VKWL8QI), [Web library](h
 - [[Attachments]]
 	- [simpread-生成对抗网络——原理解释和数学推导 - 黄钢的部落格 _ Canary Blog.md](zotero://select/library/items/C9UF3JIW) {{zotero-imported-file C9UF3JIW, "simpread-生成对抗网络——原理解释和数学推导 - 黄钢的部落格 _ Canary Blog.md"}}
 	- [Goodfellow 等。 - Generative Adversarial Nets.pdf](zotero://select/library/items/EE9CJ7ST) {{zotero-imported-file EE9CJ7ST, "Goodfellow 等。 - Generative Adversarial Nets.pdf"}}
-- 本文构建了一个生成模型GAN来学习训练数据的分布，是一个无监督学习算法。在此之前有VAE等生成模型为相关工作，作者重点介绍了与PM可预测性最小化算法的不同
+- 本文构建了一个生成模型GAN来学习训练数据的分布，是一个无监督学习算法。在此之前有VAE等生成模型为相关工作，作者重点介绍了与PM可预测性最小化算法的不同。
+-
