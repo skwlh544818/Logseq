@@ -23,4 +23,5 @@ links:: [Local library](zotero://select/library/items/QG539KZ2), [Web library](h
 	- What components are needed for building learning algorithms that leverage the structure and properties of graphs?
 - [[Attachments]]
 	- [Snapshot](https://distill.pub/2021/gnn-intro/) {{zotero-imported-file 4A67WFK3, "gnn-intro.html"}}
+	-
 -
