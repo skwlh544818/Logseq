@@ -21,4 +21,4 @@ links:: [Local library](zotero://select/library/items/4VKWL8QI), [Web library](h
 - 需要优化的价值函数
 	- $$\mathop{min}\limits_{G} \mathop{max}\limits_D V(D,G)=E_{x\sim P_{data}(x)}[logD(x)]+E_{z\sim P_z(z)}[log(1-D(G(z)))]$$
 - 该价值函数可以优化成KL散度，进而优化成JS散度，表明$P_{data}$和$P_G$之间的差别，具体的推导可以看这个[这个链接](https://alberthg.github.io/2018/05/05/introduction-gan/)
-- 简要叙述一下这个流程，首先是采样噪音$z$以及数据$x$训练$k$个回合的判别器D网络
+- 简要叙述一下这个流程，首先是采样噪音$z$以及数据$x$训练$k$个回合的判别器D网络，然后根据损失函数梯度下降反向传播，
