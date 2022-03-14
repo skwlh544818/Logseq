@@ -22,6 +22,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
   CLOCK: [2022-03-14 Mon 22:08:28]--[2022-03-14 Mon 22:08:28] =>  00:00:00
   CLOCK: [2022-03-14 Mon 22:08:29]--[2022-03-14 Mon 22:08:30] =>  00:00:01
   :END:
-- “layer normalization” ([Vaswani 等。, 2017, p. 3](zotero://select/library/items/GCHSHNNB)) ([pdf](zotero://open-pdf/library/items/KUU52WAB?page=3&annotation=WMCLMLI8)) 这里用的是层规范化，不是batch norm  
+- Transformer中使用了层规范化，不是batch norm  
   1\. layer norm和batch norm的区别  
   2\. 这里为什么要用layer norm
