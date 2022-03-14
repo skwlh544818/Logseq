@@ -22,6 +22,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
   CLOCK: [2022-03-14 Mon 22:08:28]--[2022-03-14 Mon 22:08:28] =>  00:00:00
   CLOCK: [2022-03-14 Mon 22:08:29]--[2022-03-14 Mon 22:08:30] =>  00:00:01
   :END:
-- Transformer中使用了层规范化，不是batch norm  
-  1\. layer norm和batch norm的区别  
-  2\. 这里为什么要用layer norm
+- Transformer中使用了layer norm，不是batch norm
+	- layer norm和batch norm的区别
+	- 2\. 这里为什么要用layer norm
