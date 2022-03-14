@@ -25,9 +25,10 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 	- 好像就是因为顺序的句子结构无法并行，以及自注意力机制的广发使用，才促使了transformer的产生
 	-
 - Transformer中使用了layer norm，不是batch norm/
-	- TODO layer norm和batch norm的区别
+	- TODO layer norm和batch norm的区别 [[Mar 15th, 2022]]
 	  :LOGBOOK:
 	  CLOCK: [2022-03-14 Mon 22:18:52]--[2022-03-14 Mon 22:18:53] =>  00:00:01
 	  :END:
-	- TODO 这里为什么要用layer norm
+	- TODO 这里为什么要用layer norm [[Mar 15th, 2022]]
+-
 -
