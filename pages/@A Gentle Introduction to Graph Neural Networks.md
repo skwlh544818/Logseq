@@ -32,3 +32,4 @@ links:: [Local library](zotero://select/library/items/QG539KZ2), [Web library](h
 -
 - TODO 一个问题，从一个图结构输入到网络中得到加强的图结构有什么用
 -
+- id:: 622e0ccc-0634-4d42-a8ad-713945377221
