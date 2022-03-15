@@ -25,14 +25,15 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 	- 好像就是因为顺序的句子结构无法并行，以及自注意力机制的广发使用，才促使了transformer的产生
 	-
 - Transformer中使用了layer norm，不是batch norm/
-	- TODO layer norm和batch norm的区别 [[Mar 15th, 2022]]
+	- DONE layer norm和batch norm的区别 [[Mar 15th, 2022]]
 	  :LOGBOOK:
 	  CLOCK: [2022-03-14 Mon 22:18:52]--[2022-03-14 Mon 22:18:53] =>  00:00:01
 	  :END:
 		- batch norm对一个batch-size样本内的每个特征做归一化，layer norm 对每条样本的所有特征做归一化，两者都是在深度学习中让当前层的参数稳定下来，避免梯度消失或者梯度爆炸，方便后面的继续学习。
 		- 如果特征依赖不同样本的统计参数，那Batch Norm更有效， 因为它不考虑不同特征之间的大小关系，但是保留不同样本间的大小关系。
 		- NLP领域适合用LayerNorm， CV适合BatchNorm
-		- 训练阶段需要保存每个batch的均值和方差，以求出整体均值和方差在infrence阶段使用
+		- batch norm训练阶段需要保存每个batch的均值和方差，以求出整体均值和方差在infrence阶段使用
 	- TODO 这里为什么要用layer norm [[Mar 15th, 2022]]
+		- 由于各个样本的
 -
 -
