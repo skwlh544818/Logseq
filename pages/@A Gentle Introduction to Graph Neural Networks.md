@@ -34,4 +34,7 @@ links:: [Local library](zotero://select/library/items/QG539KZ2), [Web library](h
 	- 这方面是我误解了，得到稳定的隐藏状态后，会对结点进行分类等操作，比如判断该结点是否为网络水军就是一个二分类问题，会在结点后面加上下游任务的输出，同样是一个MLP网络
 - 可以关注的博客
   id:: 622e0ccc-0634-4d42-a8ad-713945377221
-	- /zotero
+	- [[@从图(Graph)到图卷积(Graph Convolution)：漫谈图神经网络模型 (一) - SivilTaram - 博客园]]
+	- [[@从图(Graph)到图卷积(Graph Convolution)：漫谈图神经网络模型 (二) - SivilTaram - 博客园]]
+	- [[@从图(Graph)到图卷积(Graph Convolution)：漫谈图神经网络模型 (三) - SivilTaram - 博客园]]
+-
