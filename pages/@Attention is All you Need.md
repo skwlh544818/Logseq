@@ -29,6 +29,7 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 	  :LOGBOOK:
 	  CLOCK: [2022-03-14 Mon 22:18:52]--[2022-03-14 Mon 22:18:53] =>  00:00:01
 	  :END:
+		- batch norm对一个batch-size样本内的每个特征做归一化，layer
 	- TODO 这里为什么要用layer norm [[Mar 15th, 2022]]
 -
 -
