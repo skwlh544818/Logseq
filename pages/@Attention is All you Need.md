@@ -29,7 +29,8 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 	  :LOGBOOK:
 	  CLOCK: [2022-03-14 Mon 22:18:52]--[2022-03-14 Mon 22:18:53] =>  00:00:01
 	  :END:
-		- batch norm对一个batch-size样本内的每个特征做归一化，layer
+		- batch norm对一个batch-size样本内的每个特征做归一化，layer norm 对每条样本的所有特征做归一化，两者都是在深度学习中让当前层的参数稳定下来，避免梯度消失或者梯度爆炸，方便后面的继续学习。
+		-
 	- TODO 这里为什么要用layer norm [[Mar 15th, 2022]]
 -
 -
