@@ -34,6 +34,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 		- NLP领域适合用LayerNorm， CV适合BatchNorm
 		- batch norm训练阶段需要保存每个batch的均值和方差，以求出整体均值和方差在infrence阶段使用
 	- TODO 这里为什么要用layer norm [[Mar 15th, 2022]]
-		- 由于各个样本的
+		- 由于各个样本的特征长度长短不一，如果对没个batch做norm的话，会导致在特征
 -
 -
