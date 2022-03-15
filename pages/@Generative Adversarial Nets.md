@@ -1,4 +1,4 @@
-tags:: [[/unread]], [[⛔ No DOI found]], [[已阅读]], [[重要]]
+tags:: [[/unread]], [[⛔ No DOI found]], [[已阅读]], [[重要]], [[GAN]] 
 title:: @Generative Adversarial Nets
 pages:: 9
 item-type:: [[journalArticle]]
