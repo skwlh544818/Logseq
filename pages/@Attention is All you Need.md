@@ -37,4 +37,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 		- 由于各个样本的特征长度长短不一，如果对没个batch做norm的话，会导致在特征缺少的特征处，求得的batch norm浮动比较大，layer norm相对稳定
 		- NLP任务不考虑不同样本间的大小关系，无需保留样本内不同特征之间的大小关系
 -
-- 今天在看 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]]时，有一点
+- 今天在看 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]]时，在计算参数量时
+-
+-
