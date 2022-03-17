@@ -38,6 +38,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 		- NLP任务不考虑不同样本间的大小关系，无需保留样本内不同特征之间的大小关系
 -
 - 今天在看 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]]时，在计算BERT的参数量时，对transformer的架构又有了一些了解。
-	- 其中embedding层
+	- 其中embedding层是将输入的词元维度映射到
 -
 -
