@@ -36,13 +36,25 @@
   :block/updated-at 1645800795121}
  {:block/name "@a gentle introduction to graph neural networks",
   :block/created-at 1647175402149,
-  :block/updated-at 1647267735380}
+  :block/updated-at 1647320176254}
  {:block/name "@attention is all you need",
   :block/created-at 1647265442411,
-  :block/updated-at 1647267648548}
+  :block/updated-at 1647322459903}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
-  :block/updated-at 1647181455922}
+  :block/updated-at 1647319738024}
+ {:block/name
+  "@从图(graph)到图卷积(graph convolution)：漫谈图神经网络模型 (一) - siviltaram - 博客园",
+  :block/created-at 1647319928155,
+  :block/updated-at 1647319928155}
+ {:block/name
+  "@从图(graph)到图卷积(graph convolution)：漫谈图神经网络模型 (三) - siviltaram - 博客园",
+  :block/created-at 1647319968128,
+  :block/updated-at 1647319968128}
+ {:block/name
+  "@从图(graph)到图卷积(graph convolution)：漫谈图神经网络模型 (二) - siviltaram - 博客园",
+  :block/created-at 1647319947370,
+  :block/updated-at 1647319947370}
  {:block/name "a",
   :block/created-at 1645800795120,
   :block/updated-at 1645800795120}
@@ -127,6 +139,15 @@
  {:block/name "feb 24th, 2022",
   :block/created-at 1645665264941,
   :block/updated-at 1645666337570}
+ {:block/name "gan",
+  :block/created-at 1647319738009,
+  :block/updated-at 1647319738009}
+ {:block/name "gcn",
+  :block/created-at 1647319683556,
+  :block/updated-at 1647319683556}
+ {:block/name "gnn",
+  :block/created-at 1647319677472,
+  :block/updated-at 1647319677472}
  {:block/name
   "hls__bernstein_和_burnaev_-_2018_-_reinforcement_learning_in_computer_vision_1641978242753_0",
   :block/created-at 1641978949427,
@@ -246,6 +267,9 @@
  {:block/name "todo",
   :block/created-at 1642063431019,
   :block/updated-at 1642063431019}
+ {:block/name "transformer",
+  :block/created-at 1647319707462,
+  :block/updated-at 1647319707462}
  {:block/name "unread",
   :block/created-at 1647169281761,
   :block/updated-at 1647169281761}
@@ -255,6 +279,12 @@
  {:block/name "waiting",
   :block/created-at 1645800795120,
   :block/updated-at 1645800795120}
+ {:block/name "webpage",
+  :block/created-at 1647319928169,
+  :block/updated-at 1647319928169}
+ {:block/name "yoshua bengio",
+  :block/created-at 1647319738015,
+  :block/updated-at 1647319738015}
  {:block/name "łukasz kaiser",
   :block/created-at 1647265442477,
   :block/updated-at 1647265442477}
