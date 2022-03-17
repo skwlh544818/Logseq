@@ -39,6 +39,6 @@ links:: [Local library](zotero://select/library/items/GCHSHNNB), [Web library](h
 -
 - 今天在看 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]]时，在计算BERT的参数量时，对transformer的架构又有了一些了解。
 	- 其中embedding层是将输入的词元维度映射到$$d_{model}$$维数据，并且和编码器和解码器的embedding层的参数共享
-	- 对于transformer block中的feed forward层有两层，第一层输入为$$d_{model}$$，输出为$$4*d$$
+	- 对于transformer block中的feed forward层有两层，第一层输入为$$d_{model}$$，输出为$$4*d_{model}$$，第二层输入为$$4*d_{model}$$，输出为$$d_{model}$$
 -
 -
