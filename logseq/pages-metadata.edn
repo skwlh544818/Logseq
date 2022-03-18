@@ -39,7 +39,11 @@
   :block/updated-at 1647320176254}
  {:block/name "@attention is all you need",
   :block/created-at 1647265442411,
-  :block/updated-at 1647322459903}
+  :block/updated-at 1647514004613}
+ {:block/name
+  "@bert_ pre-training of deep bidirectional transformers for language understanding",
+  :block/created-at 1647512643094,
+  :block/updated-at 1647512643094}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
   :block/updated-at 1647319738024}
@@ -192,6 +196,9 @@
  {:block/name "in-progress",
   :block/created-at 1645800795124,
   :block/updated-at 1645800795124}
+ {:block/name "jacob devlin",
+  :block/created-at 1647512643099,
+  :block/updated-at 1647512643099}
  {:block/name "jakob uszkoreit",
   :block/created-at 1647265442475,
   :block/updated-at 1647265442475}
@@ -222,6 +229,12 @@
  {:block/name "journalarticle",
   :block/created-at 1647169281764,
   :block/updated-at 1647169281764}
+ {:block/name "kenton lee",
+  :block/created-at 1647512643100,
+  :block/updated-at 1647512643100}
+ {:block/name "kristina toutanova",
+  :block/created-at 1647512643101,
+  :block/updated-at 1647512643101}
  {:block/name "later",
   :block/created-at 1645800795122,
   :block/updated-at 1645800795122}
@@ -242,7 +255,7 @@
   :block/updated-at 1647267642990}
  {:block/name "mar 17th, 2022",
   :block/created-at 1647510906603,
-  :block/updated-at 1647510906603}
+  :block/updated-at 1647512644113}
  {:block/name "mar 1st, 2022",
   :block/created-at 1646092800000,
   :block/updated-at 1646092800000}
@@ -252,6 +265,9 @@
  {:block/name "mehdi mirza",
   :block/created-at 1647169281766,
   :block/updated-at 1647169281766}
+ {:block/name "ming-wei chang",
+  :block/created-at 1647512643100,
+  :block/updated-at 1647512643100}
  {:block/name "niki parmar",
   :block/created-at 1647265442474,
   :block/updated-at 1647265442474}
