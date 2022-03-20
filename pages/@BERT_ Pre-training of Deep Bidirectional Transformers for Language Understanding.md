@@ -22,4 +22,5 @@ tags:: /unread
 	- [Devlin et al_2019_BERT.pdf](https://aclanthology.org/N19-1423.pdf) {{zotero-imported-file AK6MUUBV, "Devlin et al_2019_BERT.pdf"}}
 -
 - BERT这篇的一个模型就是将ELMo中使用的双向信息，与GPT中使用的transformer模型相结合的产物。与ELMo相比，BERT使用了更为先进的transformer模型来替换双向RNN模型。与GPT相比，BERT使用了transformer中的编码器来结合双向信息，而GPT使用的是解码器模块来汇聚单向信息。
-- BERT在预训练阶段训练了两个任务，一个是Masked LM，另一个是Next Sentence Prediction 任务。第一个任务让模型学会利用上下文信息，也就是双向信息。第二个任务让模型学会
+- BERT在预训练阶段训练了两个任务，一个是Masked LM，另一个是Next Sentence Prediction 任务。第一个任务让模型学会利用上下文信息，也就是双向信息。第二个任务让模型学会理解句子之间的依赖关系。这两个任务也就是启发了后面的图像领域的MAE模型。
+-
