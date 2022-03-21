@@ -43,7 +43,7 @@
  {:block/name
   "@bert_ pre-training of deep bidirectional transformers for language understanding",
   :block/created-at 1647512643094,
-  :block/updated-at 1647512643094}
+  :block/updated-at 1647782985830}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
   :block/updated-at 1647319738024}
@@ -156,6 +156,9 @@
   "hls__bernstein_和_burnaev_-_2018_-_reinforcement_learning_in_computer_vision_1641978242753_0",
   :block/created-at 1641978949427,
   :block/updated-at 1641989094117}
+ {:block/name "hls__devlin et al_2019_bert",
+  :block/created-at 1647780422382,
+  :block/updated-at 1647780422382}
  {:block/name "hls__elegantpaper-cn_1639551644869_0",
   :block/created-at 1639551800767,
   :block/updated-at 1639551817553}
@@ -262,6 +265,9 @@
  {:block/name "mar 1st, 2022",
   :block/created-at 1646092800000,
   :block/updated-at 1646092800000}
+ {:block/name "mar 20th, 2022",
+  :block/created-at 1647780185003,
+  :block/updated-at 1647780311094}
  {:block/name "mar 4th, 2022",
   :block/created-at 1646352000000,
   :block/updated-at 1646352000000}
@@ -328,6 +334,9 @@
  {:block/name "深度强化学习",
   :block/created-at 1645016071714,
   :block/updated-at 1645016071714}
+ {:block/name "自监督",
+  :block/created-at 1647781605417,
+  :block/updated-at 1647781605417}
  {:block/name "重要",
   :block/created-at 1647169281763, 
   :block/updated-at 1647169281763}]
