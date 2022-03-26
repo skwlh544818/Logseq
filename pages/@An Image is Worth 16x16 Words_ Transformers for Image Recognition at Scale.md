@@ -17,3 +17,5 @@ tags:: /unread, 已阅读
 - [[Attachments]]
 	- [Dosovitskiy et al_2020_An Image is Worth 16x16 Words.pdf](https://openreview.net/pdf?id=YicbFdNTTy) {{zotero-imported-file UFFFIJ2G, "Dosovitskiy et al_2020_An Image is Worth 16x16 Words.pdf"}}
 	- [Snapshot](https://openreview.net/forum?id=YicbFdNTTy) {{zotero-imported-file NMTWXWB3, "forum.html"}}
+-
+-
