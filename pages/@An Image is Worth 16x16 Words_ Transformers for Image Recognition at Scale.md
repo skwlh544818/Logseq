@@ -27,5 +27,5 @@ tags:: /unread, 已阅读
 	- 这个概念是说，我们得到一个预训练模型后，不进行微调操作，直接在数据集每个类别中选取少量的数据来进行测试精度。这样可以很快的评估一个模型，节省算力等操作。
 -
 - 这篇文章主要讲了将图片切成每个patch作为transformer的输入，来使用transformer来对图像做分类的模型。
-	- 整个模型和很像
+	- 整个模型和 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]] 很像，同样使用了一个特殊字符
 -
