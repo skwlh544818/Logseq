@@ -28,5 +28,5 @@ tags:: /unread, 已阅读
 -
 - 这篇文章主要讲了将图片切成每个patch作为transformer的输入，来使用transformer来对图像做分类的模型。
 	- 整个模型和 [[@BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]] 很像，同样使用了一个特殊字符cls作为分类的全局特征，以及都是只使用了一个transformer的编码器，没有使用解码器。
-	-
+	- 将图片切成patch是
 -
