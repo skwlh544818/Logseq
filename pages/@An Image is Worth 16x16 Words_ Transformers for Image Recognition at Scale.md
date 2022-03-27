@@ -19,4 +19,4 @@ tags:: /unread, 已阅读
 	- [Snapshot](https://openreview.net/forum?id=YicbFdNTTy) {{zotero-imported-file NMTWXWB3, "forum.html"}}
 -
 - 什么是归纳偏置
-	- 归纳偏置也就是说是先验知识，在使用卷积神经网络时，我们引入了两个归纳偏置，一个是
+	- 归纳偏置也就是说是先验知识，在使用卷积神经网络时，我们引入了两个归纳偏置，一个是locality，也就是说在图片上相邻的区域有相同的特征，这个在生活中比较认同；第二个就是
