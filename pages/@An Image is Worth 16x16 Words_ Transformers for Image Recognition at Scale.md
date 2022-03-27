@@ -23,4 +23,4 @@ tags:: /unread, 已阅读
 	- 第二个是平移等变性，transform equivalence，从公式上说就是$$f(g(x))=g(f(x))$$
 	- ViT中使用了很少的归纳偏置
 - 什么是few-shot accuracy
-	-
+	- 这个概念是说，我们得到一个预训练模型后，不进行微调操作，直接在数据集每个类别中选取少量的数据
