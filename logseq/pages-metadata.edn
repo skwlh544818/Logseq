@@ -37,6 +37,10 @@
  {:block/name "@a gentle introduction to graph neural networks",
   :block/created-at 1647175402149,
   :block/updated-at 1647320176254}
+ {:block/name
+  "@an image is worth 16x16 words_ transformers for image recognition at scale",
+  :block/created-at 1648302602961,
+  :block/updated-at 1648302642917}
  {:block/name "@attention is all you need",
   :block/created-at 1647265442411,
   :block/updated-at 1647514004613}
@@ -77,6 +81,12 @@
  {:block/name "alexander b. wiltschko",
   :block/created-at 1647175402203,
   :block/updated-at 1647175402203}
+ {:block/name "alexander kolesnikov",
+  :block/created-at 1648301351936,
+  :block/updated-at 1648301351936}
+ {:block/name "alexey dosovitskiy",
+  :block/created-at 1648301351935,
+  :block/updated-at 1648301351935}
  {:block/name "ashish vaswani",
   :block/created-at 1647265442473,
   :block/updated-at 1647265442473}
@@ -116,6 +126,9 @@
  {:block/name "dec 21st, 2021",
   :block/created-at 1640096150058,
   :block/updated-at 1640096156577}
+ {:block/name "dirk weissenborn",
+  :block/created-at 1648301351936,
+  :block/updated-at 1648301351936}
  {:block/name "doing",
   :block/created-at 1645800795122,
   :block/updated-at 1645800795122}
@@ -149,6 +162,9 @@
  {:block/name "gcn",
   :block/created-at 1647319683556,
   :block/updated-at 1647319683556}
+ {:block/name "georg heigold",
+  :block/created-at 1648301351939,
+  :block/updated-at 1648301351939}
  {:block/name "gnn",
   :block/created-at 1647319677472,
   :block/updated-at 1647319677472}
@@ -244,6 +260,9 @@
  {:block/name "llion jones",
   :block/created-at 1647265442476,
   :block/updated-at 1647265442476}
+ {:block/name "lucas beyer",
+  :block/created-at 1648301351935,
+  :block/updated-at 1648301351935}
  {:block/name "mar 10th, 2022",
   :block/created-at 1646886121368,
   :block/updated-at 1646886121368}
@@ -277,15 +296,27 @@
  {:block/name "mar 24th, 2022",
   :block/created-at 1648094944774,
   :block/updated-at 1648094944774}
+ {:block/name "mar 26th, 2022",
+  :block/created-at 1648301235275,
+  :block/updated-at 1648302606050}
  {:block/name "mar 4th, 2022",
   :block/created-at 1646352000000,
   :block/updated-at 1646352000000}
+ {:block/name "matthias minderer",
+  :block/created-at 1648301351938,
+  :block/updated-at 1648301351938}
  {:block/name "mehdi mirza",
   :block/created-at 1647169281766,
   :block/updated-at 1647169281766}
  {:block/name "ming-wei chang",
   :block/created-at 1647512643100,
   :block/updated-at 1647512643100}
+ {:block/name "mostafa dehghani",
+  :block/created-at 1648301351938,
+  :block/updated-at 1648301351938}
+ {:block/name "neil houlsby",
+  :block/created-at 1648301351941,
+  :block/updated-at 1648301351941}
  {:block/name "niki parmar",
   :block/created-at 1647265442474,
   :block/updated-at 1647265442474}
@@ -295,12 +326,21 @@
  {:block/name "now",
   :block/created-at 1645800795124,
   :block/updated-at 1645800795124}
+ {:block/name "sep 28th, 2020",
+  :block/created-at 1648301351933,
+  :block/updated-at 1648301351933}
  {:block/name "sep 2nd, 2021",
   :block/created-at 1647175402200,
   :block/updated-at 1647175402200}
  {:block/name "sherjil ozair",
   :block/created-at 1647169281768,
   :block/updated-at 1647169281768}
+ {:block/name "sylvain gelly",
+  :block/created-at 1648301351939,
+  :block/updated-at 1648301351939}
+ {:block/name "thomas unterthiner",
+  :block/created-at 1648301351937,
+  :block/updated-at 1648301351937}
  {:block/name "todo",
   :block/created-at 1642063431019,
   :block/updated-at 1642063431019}
@@ -319,6 +359,9 @@
  {:block/name "webpage",
   :block/created-at 1647319928169,
   :block/updated-at 1647319928169}
+ {:block/name "xiaohua zhai",
+  :block/created-at 1648301351937,
+  :block/updated-at 1648301351937}
  {:block/name "yoshua bengio",
   :block/created-at 1647319738015,
   :block/updated-at 1647319738015}
@@ -337,6 +380,9 @@
  {:block/name "强化学习视频笔记",
   :block/created-at 1645016159829,
   :block/updated-at 1645016159829}
+ {:block/name "待读",
+  :block/created-at 1648301351933,
+  :block/updated-at 1648301351933}
  {:block/name "普林斯顿微积分",
   :block/created-at 1644638017482,
   :block/updated-at 1644638020093}
