@@ -40,7 +40,7 @@
  {:block/name
   "@an image is worth 16x16 words_ transformers for image recognition at scale",
   :block/created-at 1648302602961,
-  :block/updated-at 1648302642917}
+  :block/updated-at 1648361638767}
  {:block/name "@attention is all you need",
   :block/created-at 1647265442411,
   :block/updated-at 1647514004613}
@@ -299,6 +299,9 @@
  {:block/name "mar 26th, 2022",
   :block/created-at 1648301235275,
   :block/updated-at 1648302606050}
+ {:block/name "mar 27th, 2022",
+  :block/created-at 1648359116333,
+  :block/updated-at 1648359137653}
  {:block/name "mar 4th, 2022",
   :block/created-at 1646352000000,
   :block/updated-at 1646352000000}
