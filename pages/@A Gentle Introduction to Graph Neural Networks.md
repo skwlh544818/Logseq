@@ -1,4 +1,4 @@
-tags:: [[/unread]], [[GNN]] 
+tags::  [[GNN]] 
 date:: [[Sep 2nd, 2021]]
 issn:: 2476-0757
 archive-location:: 5 citation(s)
