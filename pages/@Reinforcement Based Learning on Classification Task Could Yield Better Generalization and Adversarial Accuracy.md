@@ -21,4 +21,4 @@ links:: [Local library](zotero://select/library/items/FL8GB2DR), [Web library](h
   id:: 6251880d-b4df-48a8-b89d-778a5af1304d
 - 对抗数据指的是在原图片上加上一种干扰之后，该图片虽然在肉眼上看和原图片相同，但是卷积网络却会分类错误的一种现象。
 - 该文章与强化学习结合的一个内容就是修改损失函数，引入了强化学习中的奖励机制，将交叉熵函数修改成了$$\sum_t^B{-\frac{1}{B}log(P(a_t|s_t))*R_t}$$
--
+- 本文中的强化学习的
