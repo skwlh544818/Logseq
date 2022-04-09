@@ -25,4 +25,4 @@ links:: [Local library](zotero://select/library/items/FL8GB2DR), [Web library](h
 	- 1. 状态：输入的图片
 	  2. 行为：预测的标签
 	  3. 奖励：如果预测标签与真实标签相同，则奖励 +1，如果与真实标签不同，则奖励-1
--
+- 无论是从卷积网络的设置，还是强化学习三元组的设计来看，都是一个很简单的设计
