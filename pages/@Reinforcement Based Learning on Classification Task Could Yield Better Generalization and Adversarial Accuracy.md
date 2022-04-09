@@ -23,4 +23,5 @@ links:: [Local library](zotero://select/library/items/FL8GB2DR), [Web library](h
 - 该文章与强化学习结合的一个内容就是修改损失函数，引入了强化学习中的奖励机制，将交叉熵函数修改成了$$\sum_t^B{-\frac{1}{B}log(P(a_t|s_t))*R_t}$$
 - 本文中的强化学习的三元组设置则是
 	- 1. 状态：输入的图片
-	  2.
+	  2. 行为：预测的标签
+	  3. 奖励：
