@@ -24,4 +24,5 @@ links:: [Local library](zotero://select/library/items/FL8GB2DR), [Web library](h
 - 本文中的强化学习的三元组设置则是
 	- 1. 状态：输入的图片
 	  2. 行为：预测的标签
-	  3. 奖励：
+	  3. 奖励：如果预测标签与真实标签相同，则奖励 +1，如果与真实标签不同，则奖励-1
+-
