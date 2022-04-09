@@ -17,5 +17,5 @@ links:: [Local library](zotero://select/library/items/FL8GB2DR), [Web library](h
 - [[Attachments]]
 	- [Gupta - 2020 - Reinforcement Based Learning on Classification Tas.pdf](zotero://select/library/items/VFD6M74L) {{zotero-imported-file VFD6M74L, "Gupta - 2020 - Reinforcement Based Learning on Classification Tas.pdf"}}
 - #强化学习 #分类 #对抗样本
-- 这篇文章主要是利用强化学习的理念来训练卷积网络，但是由于
+- 这篇文章主要是利用强化学习的理念来训练卷积网络，但是由于其实分类精度并没有原模型精度好，所以作者为了使模型精度高于卷积网络
   id:: 6251880d-b4df-48a8-b89d-778a5af1304d
