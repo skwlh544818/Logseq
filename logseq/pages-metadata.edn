@@ -36,21 +36,25 @@
   :block/updated-at 1645800795121}
  {:block/name "@a gentle introduction to graph neural networks",
   :block/created-at 1647175402149,
-  :block/updated-at 1647320176254}
+  :block/updated-at 1649510318432}
  {:block/name
   "@an image is worth 16x16 words_ transformers for image recognition at scale",
   :block/created-at 1648302602961,
   :block/updated-at 1648361638767}
  {:block/name "@attention is all you need",
   :block/created-at 1647265442411,
-  :block/updated-at 1647514004613}
+  :block/updated-at 1649510353297}
  {:block/name
   "@bert_ pre-training of deep bidirectional transformers for language understanding",
   :block/created-at 1647512643094,
   :block/updated-at 1647782985830}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
-  :block/updated-at 1647319738024}
+  :block/updated-at 1649510366826}
+ {:block/name
+  "@reinforcement based learning on classification task could yield better generalization and adversarial accuracy",
+  :block/created-at 1649510162341,
+  :block/updated-at 1649513630328}
  {:block/name
   "@从图(graph)到图卷积(graph convolution)：漫谈图神经网络模型 (一) - siviltaram - 博客园",
   :block/created-at 1647319928155,
@@ -98,7 +102,7 @@
   :block/updated-at 1649327384113}
  {:block/name "apr 9th, 2022",
   :block/created-at 1649503621325,
-  :block/updated-at 1649503621325}
+  :block/updated-at 1649510163411}
  {:block/name "ashish vaswani",
   :block/created-at 1647265442473,
   :block/updated-at 1647265442473}
@@ -138,6 +142,9 @@
  {:block/name "dec 21st, 2021",
   :block/created-at 1640096150058,
   :block/updated-at 1640096156577}
+ {:block/name "dec 8th, 2020",
+  :block/created-at 1649510162444,
+  :block/updated-at 1649510162444}
  {:block/name "dirk weissenborn",
   :block/created-at 1648301351936,
   :block/updated-at 1648301351936}
@@ -190,6 +197,10 @@
  {:block/name "hls__elegantpaper-cn_1639551644869_0",
   :block/created-at 1639551800767,
   :block/updated-at 1639551817553}
+ {:block/name
+  "hls__gupta - 2020 - reinforcement based learning on classification tas",
+  :block/created-at 1649512510152,
+  :block/updated-at 1649512510152}
  {:block/name
   "hls__hafiz_-_image_classification_by_reinforcement_learning_wit_1641989650648_0",
   :block/created-at 1641990174885,
@@ -347,6 +358,9 @@
  {:block/name "sep 2nd, 2021",
   :block/created-at 1647175402200,
   :block/updated-at 1647175402200}
+ {:block/name "shashi kant gupta",
+  :block/created-at 1649510162446,
+  :block/updated-at 1649510162446}
  {:block/name "sherjil ozair",
   :block/created-at 1647169281768,
   :block/updated-at 1647169281768}
@@ -383,15 +397,21 @@
  {:block/name "łukasz kaiser",
   :block/created-at 1647265442477,
   :block/updated-at 1647265442477}
- {:block/name "⛔ no doi found",
-  :block/created-at 1647169281762,
-  :block/updated-at 1647169281762}
  {:block/name "人工智能历史",
   :block/created-at 1645666359954,
   :block/updated-at 1645666410986}
+ {:block/name "分类",
+  :block/created-at 1649510162439,
+  :block/updated-at 1649510162439}
+ {:block/name "对抗样本",
+  :block/created-at 1649510162440,
+  :block/updated-at 1649510162440}
  {:block/name "已阅读",
   :block/created-at 1647169281763,
   :block/updated-at 1647169281763}
+ {:block/name "强化学习",
+  :block/created-at 1649510162442,
+  :block/updated-at 1649510162442}
  {:block/name "强化学习视频笔记",
   :block/created-at 1645016159829,
   :block/updated-at 1645016159829}
