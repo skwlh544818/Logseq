@@ -35,5 +35,5 @@ links:: [Local library](zotero://select/library/items/BHQT8T4W), [Web library](h
 - 视觉注意机制：$$X_f=f_d(X,\Phi)=\Phi \odot X$$,$$\phi_{ij}=sigmoid(d)=\frac{1}{1+exp(\alpha(d+\beta))}$$
 	- 其中d是像素与焦点中心的距离，$$\alpha,\beta$$是超参数
 - 信息熵：$$H(P)=E[-log(p_c)]=-\sum_{c=1}^Cp_clog(p_c)$$，然后进行归一化的操作$$H'(P)=\frac{H(P)}{log(C)}$$,
-	- $$p_c$$是每个类别的概率
--
+	- $p_c$是每个类别的概率
+- 强化学习三元组：
