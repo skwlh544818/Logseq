@@ -26,5 +26,6 @@ links:: [Local library](zotero://select/library/items/BHQT8T4W), [Web library](h
 - [[Attachments]]
 	- [Zhao 等。 - 2017 - Deep Reinforcement Learning With Visual Attention .pdf](zotero://select/library/items/I3INKMG3) {{zotero-imported-file I3INKMG3, "Zhao 等。 - 2017 - Deep Reinforcement Learning With Visual Attention .pdf"}}
 - #强化学习 #分类
-- 这篇文章讲了将视觉注意力的模块加入到CNN中，并且引入了强化学习来控制多瞥机制
+- 本文主要是通过使用视觉注意机制来处理图片，然后利用CNN来进行分类，将分类的概率计算信息熵来指导强化学习智能体来选择特征
   id:: 6253c37a-e688-4bbe-8082-a99408dfa77e
+-
