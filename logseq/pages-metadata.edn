@@ -48,6 +48,10 @@
   "@bert_ pre-training of deep bidirectional transformers for language understanding",
   :block/created-at 1647512643094,
   :block/updated-at 1647782985830}
+ {:block/name
+  "@deep reinforcement learning with visual attention for vehicle classification",
+  :block/created-at 1649656662333,
+  :block/updated-at 1649656698770}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
   :block/updated-at 1649510366826}
@@ -94,6 +98,9 @@
  {:block/name "apr 10th, 2022",
   :block/created-at 1649583191093,
   :block/updated-at 1649583191093}
+ {:block/name "apr 11th, 2022",
+  :block/created-at 1649656626806,
+  :block/updated-at 1649656663593}
  {:block/name "apr 2nd, 2022",
   :block/created-at 1648878004220,
   :block/updated-at 1648878004220}
@@ -157,6 +164,9 @@
  {:block/name "done",
   :block/created-at 1645800795122,
   :block/updated-at 1645800795122}
+ {:block/name "dongbin zhao",
+  :block/created-at 1649656662427,
+  :block/updated-at 1649656662427}
  {:block/name "emily reif",
   :block/created-at 1647175402202,
   :block/updated-at 1647175402202}
@@ -283,6 +293,9 @@
  {:block/name "later",
   :block/created-at 1645800795122,
   :block/updated-at 1645800795122}
+ {:block/name "le lv",
+  :block/created-at 1649656662428,
+  :block/updated-at 1649656662428}
  {:block/name "llion jones",
   :block/created-at 1647265442476,
   :block/updated-at 1647265442476}
@@ -394,6 +407,9 @@
  {:block/name "xiaohua zhai",
   :block/created-at 1648301351937,
   :block/updated-at 1648301351937}
+ {:block/name "yaran chen",
+  :block/created-at 1649656662427,
+  :block/updated-at 1649656662427}
  {:block/name "yoshua bengio",
   :block/created-at 1647319738015,
   :block/updated-at 1647319738015}
