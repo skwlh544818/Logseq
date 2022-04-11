@@ -40,4 +40,4 @@ links:: [Local library](zotero://select/library/items/BHQT8T4W), [Web library](h
 	- 状态：经过视觉注意模块处理的图片
 	- 行为：将注意焦点移动的方向和步数，一共是16个动作
 	- 奖励：$$r_t = \begin{cases}0,& y=y^* \& H'(X_{mf})>H'(X_{mf}^{*})\\1,& y=y^* \& H'(X_{mf})\leq H'(X_{mf}^{*})\\ -1 & y!=y^*\end{cases}$$
-	-
+-
