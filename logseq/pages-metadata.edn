@@ -51,7 +51,7 @@
  {:block/name
   "@deep reinforcement learning with visual attention for vehicle classification",
   :block/created-at 1649656662333,
-  :block/updated-at 1649656698770}
+  :block/updated-at 1649671504203}
  {:block/name "@generative adversarial nets",
   :block/created-at 1647169281723,
   :block/updated-at 1649510366826}
