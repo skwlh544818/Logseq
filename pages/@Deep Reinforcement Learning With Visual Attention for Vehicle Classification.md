@@ -34,4 +34,4 @@ links:: [Local library](zotero://select/library/items/BHQT8T4W), [Web library](h
 	- 强化学习：用来选择图片上的重点区域，然后将重点区域与前几步的重点区域叠加后输入进视觉注意机制来模糊化。
 - 视觉注意机制：$$X_f=f_d(X,\Phi)=\Phi \odot X$$,$$\phi_{ij}=sigmoid(d)=\frac{1}{1+exp(\alpha(d+\beta))}$$
 	- 其中d是像素与焦点中心的距离，$$\alpha,\beta$$是超参数
--
+- 信息熵：$$H(P)=E[-log]$$
