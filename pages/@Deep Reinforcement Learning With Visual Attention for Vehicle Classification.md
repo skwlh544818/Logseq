@@ -37,3 +37,4 @@ links:: [Local library](zotero://select/library/items/BHQT8T4W), [Web library](h
 - 信息熵：$$H(P)=E[-log(p_c)]=-\sum_{c=1}^Cp_clog(p_c)$$，然后进行归一化的操作$$H'(P)=\frac{H(P)}{log(C)}$$,
 	- $p_c$是每个类别的概率
 - 强化学习三元组：
+	- 状态：经过视觉注意模块处理的
