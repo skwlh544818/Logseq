@@ -31,5 +31,5 @@ links:: [Local library](zotero://select/library/items/2MISUPF4), [Web library](h
 	- 行为：只有两个行为，一个是保留，一个是删除
 	- 奖励：奖励值是在数据集所有图片都被选择过后全部统一给予的。
 	- $$R_i=P\{e_{true}|x_i\}-\frac{1}{n}\sum_{j=1}^{n}p\{e|x_j\}$$
-	-
+	- $i$指的是被选择保留的图片
 -
