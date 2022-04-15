@@ -32,4 +32,4 @@ links:: [Local library](zotero://select/library/items/2MISUPF4), [Web library](h
 	- 奖励：奖励值是在数据集所有图片都被选择过后全部统一给予的。
 	- $$R_i=P\{e_{true}|x_i\}-\frac{1}{n}\sum_{j=1}^{n}p\{e|x_j\}$$
 	- $i$指的是被选择保留的图片
--
+- 这个文章给的一个启发就是，前几篇文章都没有考虑马尔可夫决策过程的条件，
