@@ -24,4 +24,4 @@ links:: [Local library](zotero://select/library/items/2MISUPF4), [Web library](h
 - [[Attachments]]
 	- [Li 和 Xu - 2020 - Deep reinforcement learning for robust emotional c.pdf](zotero://select/library/items/T7YLI793) {{zotero-imported-file T7YLI793, "Li 和 Xu - 2020 - Deep reinforcement learning for robust emotional c.pdf"}}
 - #分类 #强化学习 #噪声数据
-- 本文主要是使用
+- 本文主要是使用策略强化学习来清除有噪声的数据集
