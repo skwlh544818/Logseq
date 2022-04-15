@@ -25,4 +25,4 @@ links:: [Local library](zotero://select/library/items/2MISUPF4), [Web library](h
 	- [Li 和 Xu - 2020 - Deep reinforcement learning for robust emotional c.pdf](zotero://select/library/items/T7YLI793) {{zotero-imported-file T7YLI793, "Li 和 Xu - 2020 - Deep reinforcement learning for robust emotional c.pdf"}}
 - #分类 #强化学习 #噪声数据
 - 本文主要是使用策略强化学习来清除有噪声的人脸图像情感识别数据集。整体的框架分为两部分，一部分为图像选择模块，也就是策略强化学习网络，一部分为图像情感识别模块，也就是卷积网络。先预训练图像情感识别模块，然后将图片在第一个卷积层和池化层后的特征作为当前图片的一个状态，输入策略强化学习中决策是否保留该图片。对于决策的奖励会放在最后，集体进行奖励评价。
-- 这里提到的一个问题就是，图片的数据集是独立同分布的，并不符合强化学习的马尔可夫过程，所以
+- 这里提到的一个问题就是，图片的数据集是独立同分布的，并不符合强化学习的马尔可夫过程。这里解决的
