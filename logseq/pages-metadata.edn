@@ -51,7 +51,7 @@
  {:block/name
   "@deep reinforcement learning for robust emotional classification in facial expression recognition",
   :block/created-at 1649854557490,
-  :block/updated-at 1649854610778}
+  :block/updated-at 1650003832699}
  {:block/name
   "@deep reinforcement learning with visual attention for vehicle classification",
   :block/created-at 1649656662333,
@@ -111,6 +111,9 @@
  {:block/name "apr 14th, 2022",
   :block/created-at 1649927279529,
   :block/updated-at 1649927291264}
+ {:block/name "apr 15th, 2022",
+  :block/created-at 1649999743472,
+  :block/updated-at 1649999794492}
  {:block/name "apr 2nd, 2022",
   :block/created-at 1648878004220,
   :block/updated-at 1648878004220}
