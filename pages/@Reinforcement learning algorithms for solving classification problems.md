@@ -20,4 +20,5 @@ links:: [Local library](zotero://select/library/items/W7FFCEDD), [Web library](h
 	- [Wiering et al_2011_Reinforcement learning algorithms for solving classification problems.pdf](https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=5967372&ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL2RvY3VtZW50LzU5NjczNzI=) {{zotero-imported-file S2QFJYEK, "Wiering et al_2011_Reinforcement learning algorithms for solving classification problems.pdf"}}
 - #强化学习 #分类
 - 本文是一个多智能体的图片分类算法，整体的算法并不算很好，但是它的扩展意义是很有意义的。本文为每个类别标签设计了一个智能体，然后将图片的像素特征排列成行，然后将长度再扩展两份，也就是最后的状态一共是$3*m$，第二个长度，初始全为0，为特征保留桶，第三个长度，初始为原始特征，为删除桶。设计的算法将其作为状态的表达，这个设计是符合马尔科夫过程的。为了减少开销时间，作者最后将状态的价值函数所得到的值，作为分类的依据，哪个智能体的价值最高，分类类别就是它。
--
+- 强化学习三元组：
+	- 状态：图片的像素特征平铺*3，第二个长度，初始全为0，为特征保留桶，第三个长度，初始为原始特征，为删除桶。
