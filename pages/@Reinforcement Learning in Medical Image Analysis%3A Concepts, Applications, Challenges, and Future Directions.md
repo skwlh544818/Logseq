@@ -140,7 +140,6 @@ date:: [[Jun 28th, 2022]]
 			- 状态设计使得智能体只能观察到局部或者全局的信息
 				- TODO  使得智能体同时观察到两种信息
 - ## 3. 医学图像分类
-  collapsed:: true
 	- ### 3.1 有限标注训练
 		- [[@Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images]]、 [[@Deep Reinforcement Learning with Automated Label Extraction from Clinical Reports Accurately Classifies 3D MRI Brain Volumes]]
 			- 两篇论文都是使用DQN以及TD算法以最小的训练集进行准确的图像分类，其实分类的难点在于如何将分类任务转化成马尔可夫过程。
