@@ -1,0 +1,23 @@
+links:: [Local library](zotero://select/library/items/5X6FVFJC), [Web library](https://www.zotero.org/users/8746250/items/5X6FVFJC)
+authors:: [[Joseph Stember]], [[Hrithwik Shalu]]
+tags:: [[Computer Science - Artificial Intelligence]], [[Computer Science - Computer Vision and Pattern Recognition]]
+date:: [[Mar 19th, 2021]]
+item-type:: [[preprint]]
+title:: @Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images
+
+- [[Abstract]]
+	- Purpose: Image classification may be the fundamental task in imaging artificial intelligence. We have recently shown that reinforcement learning can achieve high accuracy for lesion localization and segmentation even with minuscule training sets. Here, we introduce reinforcement learning for image classification. In particular, we apply the approach to normal vs. tumor-containing 2D MRI brain images. Materials and Methods: We applied multi-step image classification to allow for combined Deep Q learning and TD(0) Q learning. We trained on a set of 30 images (15 normal and 15 tumor-containing). We tested on a separate set of 30 images (15 normal and 15 tumor-containing). For comparison, we also trained and tested a supervised deep-learning classification network on the same set of training and testing images. Results: Whereas the supervised approach quickly overfit the training data and as expected performed poorly on the testing set (57% accuracy, just over random guessing), the reinforcement learning approach achieved an accuracy of 100%. Conclusion: We have shown a proof-of-principle application of reinforcement learning to the classification of brain tumors. We achieved perfect testing set accuracy with a training set of merely 30 images.
+- [[Attachments]]
+	- [arXiv.org Snapshot](https://arxiv.org/abs/2102.02895) {{zotero-imported-file 4EQT7Z4R, "2102.html"}}
+	- [Stember_Shalu_2021_Deep reinforcement learning-based image classification achieves perfect testing.pdf](https://arxiv.org/pdf/2102.02895.pdf) {{zotero-imported-file KWWRYJND, "Stember_Shalu_2021_Deep reinforcement learning-based image classification achieves perfect testing.pdf"}}
+- links:: [Local library](zotero://select/library/items/5X6FVFJC), [Web library](https://www.zotero.org/users/8746250/items/5X6FVFJC)
+  authors:: [[Joseph Stember]], [[Hrithwik Shalu]]
+  tags:: [[Computer Science - Artificial Intelligence]], [[Computer Science - Computer Vision and Pattern Recognition]]
+  date:: [[Mar 19th, 2021]]
+  item-type:: [[preprint]]
+  title:: @Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images
+- [[Abstract]]
+	- Purpose: Image classification may be the fundamental task in imaging artificial intelligence. We have recently shown that reinforcement learning can achieve high accuracy for lesion localization and segmentation even with minuscule training sets. Here, we introduce reinforcement learning for image classification. In particular, we apply the approach to normal vs. tumor-containing 2D MRI brain images. Materials and Methods: We applied multi-step image classification to allow for combined Deep Q learning and TD(0) Q learning. We trained on a set of 30 images (15 normal and 15 tumor-containing). We tested on a separate set of 30 images (15 normal and 15 tumor-containing). For comparison, we also trained and tested a supervised deep-learning classification network on the same set of training and testing images. Results: Whereas the supervised approach quickly overfit the training data and as expected performed poorly on the testing set (57% accuracy, just over random guessing), the reinforcement learning approach achieved an accuracy of 100%. Conclusion: We have shown a proof-of-principle application of reinforcement learning to the classification of brain tumors. We achieved perfect testing set accuracy with a training set of merely 30 images.
+- [[Attachments]]
+	- [arXiv.org Snapshot](https://arxiv.org/abs/2102.02895) {{zotero-imported-file 4EQT7Z4R, "2102.html"}}
+	- [Stember_Shalu_2021_Deep reinforcement learning-based image classification achieves perfect testing.pdf](https://arxiv.org/pdf/2102.02895.pdf) {{zotero-imported-file KWWRYJND, "Stember_Shalu_2021_Deep reinforcement learning-based image classification achieves perfect testing.pdf"}}

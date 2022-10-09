@@ -1,0 +1,238 @@
+public:: true
+links:: [Local library](zotero://select/library/items/N5MJQVLN), [Web library](https://www.zotero.org/users/8746250/items/N5MJQVLN)
+library-catalog:: ResearchGate
+authors:: Mingzhe Hu, Jiahan Zhang, Luke Matkovic, Tian Liu, Xiaofeng Yang
+short-title:: Reinforcement Learning in Medical Image Analysis
+original-title:: "Reinforcement Learning in Medical Image Analysis: Concepts, Applications, Challenges, and Future Directions"
+rights:: ⭐⭐⭐⭐⭐
+item-type:: [[book]]
+title:: @Reinforcement Learning in Medical Image Analysis: Concepts, Applications, Challenges, and Future Directions
+extra:: DOI: 10.48550/arXiv.2206.14302
+date:: [[Jun 28th, 2022]]
+
+- [[Abstract]]
+	- Motivation: Medical image analysis involves tasks to assist physicians in qualitative and quantitative analysis of lesions or anatomical structures, significantly improving the accuracy and reliability of diagnosis and prognosis. Traditionally, these tasks are finished by physicians or medical physicists and lead to two major problems: (i) low efficiency; (ii) biased by personal experience. In the past decade, many machine learning methods have been applied to accelerate and automate the image analysis process. Compared to the enormous deployments of supervised and unsupervised learning models, attempts to use reinforcement learning in medical image analysis are scarce. This review article could serve as the stepping-stone for related research. Significance: From our observation, though reinforcement learning has gradually gained momentum in recent years, many researchers in the medical analysis field find it hard to understand and deploy in clinics. One cause is lacking well-organized review articles targeting readers lacking professional computer science backgrounds. Rather than providing a comprehensive list of all reinforcement learning models in medical image analysis, this paper may help the readers to learn how to formulate and solve their medical image analysis research as reinforcement learning problems. Approach & Results: We selected published articles from Google Scholar and PubMed. Considering the scarcity of related articles, we also included some outstanding newest preprints. The papers are carefully reviewed and categorized according to the type of image analysis task. We first review the basic concepts and popular models of reinforcement learning. Then we explore the applications of reinforcement learning models in landmark detection. Finally, we conclude the article by discussing the reviewed reinforcement learning approaches' limitations and possible improvements.
+- [[Attachments]]
+	- [ResearchGate Link](https://www.researchgate.net/publication/361630620_Reinforcement_Learning_in_Medical_Image_Analysis_Concepts_Applications_Challenges_and_Future_Directions)
+- ## 1. 医学图像检测
+	- ### 1.1 特征点检测
+		- [[@An Artificial Agent for Anatomical Landmark Detection in Medical Images]]
+			- 第一次将强化学习引入到解剖的特征点检测应用中。
+			- S：$$I(\vec{p_t})$$表示在图像I中，当前步所在的特征点位置，是一个三维向量
+			- A：前后上下左右六个方向的相邻像素，离散值
+			- R：$$|| \overrightarrow{p_{t}}-\overrightarrow{p_{G T}}||_{2}^{2}-|| \overrightarrow{p_{t+1}}-\overrightarrow{p_{G T}}||_{2}^{2}$$，$$\overrightarrow{p_{G T}}$$是表示当前图片的真值特征点
+			- Loss：$$\widehat{\theta_{l}}=\arg \min _{\theta_{i}} E_{s, a, r, s^{\prime}}\left[\left(y-Q\left(s, a ; \theta_{i}\right)\right)^{2}\right]+E_{s, a, r}\left[V_{s^{\prime}}(y)\right]$$，这个损失函数与原始的DQN的函数没有什么差别
+			- 上述这一套已经成为特征点检测的强化学习的标准环境设计，缺点是模型无法应用不同尺度的信息。
+		- [[@Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans]]
+			- 在 [[@An Artificial Agent for Anatomical Landmark Detection in Medical Images]]的基础上提出了多尺度模型，先从粗尺度上搜索，收敛后，将尺度变细继续搜索，直到最细的尺度达到收敛标准。尺度变细的公式是：
+			- $$L_{d}(t)=\psi_{\rho}\left(\sigma(t-1) * L_{d}(t-1)\right)$$
+			- 其中$$\psi_{\rho}$$是符号函数，$$\sigma$$是高斯光滑函数
+		- [[@Evaluating reinforcement learning agents for anatomical landmark detection]]
+			- 在 [[@Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans]]的基础上评估了DQN、Double DQN以及Dueling DQN三种模型分别在fetal US、cardiac MRI以及brain MRI三种数据集上所能达到的效果
+		- [[@Multiple Landmark Detection Using Multi-agent Reinforcement Learning]]
+			- 根据假设特征点之间存在关联性提出了协作的多智能体模型，提出的模型叫做collab-DQN模型，多智能体之间只共用卷积层参数，全连接层参数不共用，分别输出各自的行动。之所以共享卷积层的参数是为了表明特征点之间彼此有关
+		- [[@Uncertainty Aware Deep Reinforcement Learning for Anatomical Landmark Detection in Medical Images]]
+			- 估计强化学习智能体在解剖特征点检测的不确定性
+			- TODO 待读
+		- [[@Collaborative Multi-agent Reinforcement Learning for Landmark Localization Using Continuous Action Space]]
+			- 使用连续动作空间减少到达特征点的时间
+			- TODO  待读
+		- [[@Validation of a fully automated liver segmentation algorithm using multi-scale deep reinforcement learning and comparison versus manual segmentation]]
+			- 定位形态不变的特征点检测
+			- TODO  待读
+		- 总结：
+			- 1. 特征点检测的任务很适合强化学习，四元素的设计非常符合马尔可夫过程，也是个很简单的任务设计，强化学习方面能够改进的比较少，可以改进深度学习方面
+			  2. 文章中多是应用到解剖特征点检测，为什么不能应用到其他特征点检测中，比如人体姿态检测，手势识别都是与特征点检测相关的任务。 #todo
+			  3. 可能有效的改进是在 [[@Multiple Landmark Detection Using Multi-agent Reinforcement Learning]]该模型上增加多尺度信息。 #todo
+			  4. 修改 [[@An Artificial Agent for Anatomical Landmark Detection in Medical Images]]这个论文提出的那一套强化学习范式，可以修改的是行为以及奖励的设计，或者给状态增全局的信息是否可以加快收敛。 #todo
+	- ### 1.2 病变检测
+	  collapsed:: true
+		- 目标检测或者目标提取，穷举法比较耗时，深度学习方法需要大量标签
+		- [[@Deep Reinforcement Learning for Active Breast Lesion Detection from DCE-MRI]]
+			- 受到特征点检测的强化学习方法启发，设计基于DQN的主动乳腺病变检测
+			- S：3D DCE-MR图像的当前边界框体积
+			- A：9个行动，x,y,z轴前后移动以及放大、缩小边界框和终止状态
+			- TODO R：
+		- [[@Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images]]、 [[@Deep reinforcement learning to detect brain lesions on MRI: a proof-of-concept application of reinforcement learning to medical images]]
+			- 在标签有限的数据集上使用强化学习来进行病变检测，使用的是2D脑肿瘤切片
+			- E：放射科医生所查看的覆盖有凝视图的2D切片
+			- S：智能体定位的凝视图
+			- A：三个离散值，顺序移动、不移动以及逆序移动
+			- R：向病变移动，获得积极奖励，否则获得消极奖励，保持不动的情况，如果在病变区内则较大的正奖励，否则就是较大的负奖励
+		- [[@Learning to detect chest radiographs containing pulmonary lesions using visual attention networks]]
+			- 利用视觉注意机制从弱标记图像（仅类标记）和有限数量的完全标注的X射线图像的组合中学习，提出了带注意力反馈的卷积网络结构以及带标注反馈的循环注意模型结构
+			- 强化学习每一步包含7次扫视，每一次扫视是由共享同一中心点的两个图像块组成。目的是学习一个策略使得模型可以在一系列次数的扫视中快速定位到病变位置
+			- R：根据图像是否被正确分类以及扫视中心点是否在标记的边界框内来决定
+		- [[@Stochastic Planner-Actor-Critic for Unsupervised Deformable Image Registration]]
+			- 使用强化学习来在连续帧中跟踪和检测病变，对于前面的病变检测，该论文在原状态下增加了时间信息。
+			- 框架中包含三个模块，分别是编码模块（对特征进行提取和编码）、定位识别模块（提供病变大小和位置信息）以及时空相关的强化学习模块
+			- S：状态为（E，HL，HA）
+				- E：FC1层输出的编码输出特征
+				- HL：最近位置以及规模的集合
+				- HA：最近十组的行动集合
+			- A：9个动作，8个转型动作以及一个终止动作
+			- TODO R：
+		- 总结：这方面的论文就没有特征点检测一样形成固定的形式了，这边的设计没有固定的范式，根据模型实际情况来设计强化学习，对于这个文章 [[@Stochastic Planner-Actor-Critic for Unsupervised Deformable Image Registration]]，该框架是否可以应用到行人识别中。还有就是在特征点检测时候的多智能体框架拿来应用到病变检测上应该也可以，目前应该还没有类似的。 #TODO
+	- ### 1.3 器官与解剖结构检测
+		- [[@Deep Reinforcement Learning for Organ Localization in CT]]
+			- 使用DQN在3D CT图像中定位各种器官
+			- S：3D 边界框内的体素值
+			- A：十一个动作，六个平移动作，两个zoom（成比缩小放大）动作和三个scale（只改动其中一维）
+			- R：其中一项操作使得IOU提高就会得到奖励
+		- [[@Sequential conditional reinforcement learning for simultaneous vertebral body detection and segmentation with modeling the spine anatomy]]
+			- 文章检测和分割了脊椎，使用SAC强化学习来学习脊椎的序列相关性，减少背景干扰，框架由三个模块组成，分别是顺序条件强化学习网络（学习序列相关性以及给出关注区域）、FC-Net网络（提取底层特征和高层特征确定精确边界框）以及Y-Net网络（提供分割结果）
+			- S：图像块、特征图以及区域掩码组合得到
+			- A：四个动作，水平和垂直变换、宽度和高度调节
+			- R：根据注意力聚焦准确率的变化设计奖励
+			- 这个网络的设计是一个标准的分割模型，是否可以应用到其他图片上不太确定
+			- 不行，因为这个文章是针对脊柱的特性设计的网络框架
+		- [[@Multi-agent reinforcement learning for prostate localization based on multi-scale image representation]]
+			- 首次将多智能体用在前列腺癌的检测中
+			- 两个DQN智能体定位边界框的左下角和右上角，同时根据通信协议共享知识
+			- 采用由粗到精细的搜索策略，确定前列腺的位置
+		- 总结：器官检测就是目标检测框架，但是不太适用于多目标检测。但是目前来看这一块也是属于比较新的内容，各种设计都是最近开始的。对于这个任务，是否可以更改分割框架，对于多智能体是否可以设计新的动作。 #TODO
+	- ### 1.4 总结
+	  collapsed:: true
+		- 医学图像检测可以表示成控制或者寻路问题，这是强化学习的擅长任务。状态一般设计成像素或者体素值，行为一般是各个轴的运动和转换。任务简单，论文比较多
+		- 挑战：
+			- 强化学习方法的通用性以及可重复性有待研究
+			- 图像质量以及局部特征会影响智能体结果
+			- 需要改进终止状态的触发
+			- 实时检测也是一个热门方向，4D图像的研究还很少
+			- 强化学习非常的耗时
+- ## 2. 医学图像分割
+  collapsed:: true
+	- ### 2.1 阈值确定
+		- [[@A Reinforcement Learning Framework for Medical Image Segmentation]]
+			- 第一次将RL应用到医学图像分割上。使用简单的Q-Learning方法将分割任务描述成一个控制任务，决定最优的局部阈值以及后处理参数
+			- S：考虑分割的质量
+			- A：改变分割阈值和结构化元素大小
+	- ### 2.2 预先确定分割位置
+		- [[@Deep q-network-driven catheter segmentation in 3d us by hybrid constrained semi-supervised learning and dual-unet]]
+			- 半监督方法，使用智能体确定分割的大致位置，最后使用Dual-DQN来进行基于图像块的分割。
+			- 方法减少了对于标注的需求，半监督的Dual-DQN根据预测的混合约束，利用未标记图像，提高分割性能。
+			- S：三维观察块
+			- A：移动x,y,z轴来更新状态
+			- R：远离目标给予负奖励，否则给予正奖励，静止不动没有奖励。
+			- 环境的奖励设计不合理，容易达到纳什平衡
+	- ### 2.3 超参数优化
+		- [[@Resource Optimized Neural Architecture Search for 3D Medical Image Segmentation]]
+			- RL来自动搜索神经网络框架的最好超参数，通过共享参数以及宏观搜索策略，表现很好
+		- [[@Automatic Data Augmentation Via Deep Reinforcement Learning for Effective Kidney Tumor Segmentation]]
+			- 使用Double DQN强化学习实现一个自动的端到端的增强策略，一些随即增强会损害最终得分割性能。
+			- S：从U-Net中提取得特征
+			- A：12个基本增强策略
+			- R：根据反馈的Dice比率来确定
+		- [[@Searching learning strategy with reinforcement learning for 3D medical image segmentation]]
+			- 整合了前面两篇文章的内容，基于RNN实现超参数和图像增强的设计过程自动化，使用近似策略来决定训练参数，学习最佳策略。
+			- 将RNN的内容换成transformer，是否可行
+	- ### 2.4 动态分割过程（交互）
+		- [[@Iteratively-Refined Interactive 3D Medical Image Segmentation With Multi-Agent Reinforcement Learning]]
+			- 实现多智能体强化学习与用户互动实现迭代细化分割
+			- S：每一步的状态是由四个元素组成的，$$\left[b_{i}, p_{i}^{(t)}, h_{+, i}^{(t)}, h_{-, i}^{(t)}\right]$$，b是体素i的价值，p是体素i当前步的之前的预测概率，h是体素i在当前步的提示图
+			- A：改变分割的概率值
+			- R：$$r_{i}^{(t)}=\chi_{i}^{(t-1)}-\chi_{i}^{(t)}$$，$$\chi_i$$是标签$$y_i$$和概率$$p_i$$之间的交叉熵
+			- 缺乏实现这种实验的环境，这种方向不考虑
+	- ### 2.5 总结
+		- 使用强化学习可以优化现有方法，克服训练数据比较少的困难，也可以与用户交互纳入先前的知识。
+		- 当前的缺点：
+			- 状态和行动的设计大大影响到分割的精度
+			- 状态设计使得智能体只能观察到局部或者全局的信息
+				- TODO  使得智能体同时观察到两种信息
+- ## 3. 医学图像分类
+  collapsed:: true
+	- ### 3.1 有限标注训练
+		- [[@Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images]]、 [[@Deep Reinforcement Learning with Automated Label Extraction from Clinical Reports Accurately Classifies 3D MRI Brain Volumes]]
+			- 两篇论文都是使用DQN以及TD算法以最小的训练集进行准确的图像分类，其实分类的难点在于如何将分类任务转化成马尔可夫过程。
+			- S：被红色或绿色覆盖的原始灰度图像，红色蒙版表示错误预测，绿色蒙版表示正确预测
+			- A：两元离散动作，预测正常或者包含肿瘤
+			- R：预测正确，给予奖励+1，否则给予-1奖励
+			- 这个环境的设计就很简单了，设置的转化过程应该能够改进
+		- [[@Synthetic sample selection via reinforcement learning]]
+			- 使用PPO强化学习算法选择HistoGAN生成的合成图像
+			- S：ResNet34提取的特征作为输入
+			- A：使用transformer输出动作
+			- R：根据最近的五个epoch的最大验证集准确度
+		- 总结：
+			- 这个任务中，最麻烦的就是如何将分类任务转化成马尔可夫过程， [[@Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images]]论文给出了一个简单的转换设计，可以想出一个更加适合的方法。 [[@Synthetic sample selection via reinforcement learning]]则是在数据产生方面使用强化学习，另辟蹊径
+	- ### 3.2 最优样本/权重/ROI选择
+		- [[@Deep Reinforcement Active Learning for Medical Image Classification]]
+			- 首次将医学图像分类的主动学习改成自动化的马尔可夫过程，使用的是DDPG算法
+			- S：由未标记图像的所有预测值组成
+			- A：连续值动作，决定未标记标注
+			- R：引导actor专注于被错误分类的样本
+		- [[@MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning]]
+			- 结合元学习以及深度强化学习进行选择标记，双向LSTM用作选择器，非参数分类器作为预测器，该方法是使用策略梯度算法优化目标函数。
+			- Stanford团队，有源代码可以跟踪
+		- [[@Auto-weighting for Breast Cancer Classification in Multimodal Ultrasound]]
+			- 提取和整合多模态图像信息，使用强化学习确定各个模式的权重，使用REINFORCE 强化学习控制权重，涉及4种US模型，B-mode，Doppler，SE和SWE
+			- 将各种模态的的损失加和，强化学习控制权重
+			- S：五个权重
+			- A：+0.2，-0.2，0，离散值
+			- 这个整合也是比较简单的
+		- [[@Attention by Selection: A Deep Selective Attention Approach to Breast Cancer Classification]]
+			- 使用强化学习自动选择并病变区域，分为两个部分，选择阶段和分类阶段
+			- 选择阶段是一个基于循环LSTM的强化学习
+			- S：裁剪后的图像块
+			- A：二元动作
+			- R：训练过程奖励（代表训练阶段准确性）、收敛奖励（代表收敛性能）
+			- 分类阶段使用软注意力网络
+		- 总结：
+			- 这个任务中，则是多种多样的设计，多模态，半监督这些设计都有了。多模态的结合太简单了，应该可以想到一些比较复杂的方法结合。元学习结合那里则是有源代码就可以，更改网络架构。
+	- ### 3.3 用户交互
+		- [[@Improving Skin Condition Classification with a Visual Symptom Checker Trained Using Reinforcement Learning]]
+			- 使用强化学习设计与患者交互的智能问答系统，使用DQN的目标是在提出特定问题时最大限度地正确分类。
+			- CNN是预训练的，用来输出皮肤状况的概率向量
+	- ### 3.4 总结
+		- 分类问题使用强化学习最大的困难就是转化成马尔可夫过程，大多是并不是直接进行分类，而是预处理或者修改超参数
+- ## 4. 医学图像合成
+  collapsed:: true
+	- 模态间：将特定模态的图像转换成另一种模态
+	- 模态内：在相同模态内转换成像协议
+	- ### 4.1 语义图像生成
+		- [[@Image Synthesis for Data Augmentation in Medical CT using Deep Reinforcement Learning]]
+			- 强化学习与风格迁移相结合，从一个小型图像数据集中合成精细的CT图像
+			- DQN生成肺部CT图像的语义图
+			- B样条和PCA插值对语义掩码进行插值，提供纹理信息
+	- ### 4.2 像素值改变
+		- [[@Synthesis of gadolinium-enhanced liver tumors on nonenhanced liver MR images using pixel-level graph reinforcement learning]]
+			- 从非增强图生成GD增强肝肿瘤图像，第一次使用强化学习进行图像合成，第一次在像素级别设计智能体、动作和奖励。使用的是Actor-Critic算法与图卷积相结合的算法。
+			- 图驱动的上下文感知机制使模型能够捕获小的局部对象和全局特征
+			- R：$$r_i^t = r(e)_i^t+\lambda (w)_i^t$$，第一项是像素级，第二项是区域级。
+			- A：增加、减少或者保持像素强度的动作
+	- ### 4.3 合成样本选择
+		- [[@Synthetic sample selection via reinforcement learning]]
+			- 选择HistoGAN生成的合成图像，强化学习选择PPO算法
+			- A：选择或者丢弃，二元动作
+	- ### 4.4 计量计划生成
+		- [[@Intelligent inverse treatment planning via deep reinforcement learning, a proof-of-principle study in high dose-rate brachytherapy for cervical cancer]]
+			- 最早使用强化学习逐步优化计量体积直方图，最终得到最终的计量图
+			- S：DOV的当前权重
+			- A：每个权重有五个动作
+			- R：WTPN指导，为剂量计划质量的变化
+	- ### 4.5 总结
+		- 图像合成论文比较少，一般就是语义图生成、像素级更改和合成样本选择。智能体没有显著优越，而且训练耗时。
+- ## 5. 医学图像配准
+  collapsed:: true
+	- 配准可以是患者间和患者内、模态间以及多维数据间
+	- 可以分为刚性配准、仿射配准以及可变形配准。传统使用相似度指标完成，但是，高维数据以及组织形变和伪影使得不稳定
+	- ### 5.1 刚性配准
+		- [[@An Artificial Agent for Robust Image Registration]]
+			- 首次使用强化学习来解决配准问题，强化学习试图找到可以对齐图像以进行匹配的最佳动作序列
+			- 首先通过对齐标记数据得到合成数据，然后再分辨率较低的FOV中进行粗匹配，再在全分辨率上进行精细匹配
+		- [[@Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics]]
+	- ### 5.2 前瞻推理
+		- [[@End-to-end multimodal image registration via reinforcement learning]]
+			- 使用LSTM提取时空特征
+			- S：固定和移动图像形成一个3D张量
+			- A：平移（+/-1像素）、旋转（+/-1度）和缩放（+/- 0.05）
+			- 使用蒙特卡罗推出策略来模拟不同的搜索轨迹
+	- ### 5.3 总结
+		- 大多解决刚性配准问题，对于非刚性转换，高维状态空间和大量自由度会影响智能体的收敛
+		- 再训练中用作损失函数的相似性度量效率比较低
+- ## 6. 总结
+	- 为医学图像任务设计出环境的内部模型，使用基于模型的深度强化学习
+	- 使用分层强化学习来处理高维的3D数据或者是4D的跟踪数据
+	- 对强化学习使用迁移学习
+-
+-

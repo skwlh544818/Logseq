@@ -1,0 +1,12 @@
+item-type:: [[preprint]]
+date:: [[Aug 6th, 2020]]
+tags:: Computer Science - Artificial Intelligence
+authors:: Joseph Stember, Hrithwik Shalu
+links:: [Local library](zotero://select/library/items/352AN3PF), [Web library](https://www.zotero.org/users/8746250/items/352AN3PF)
+title:: @Deep reinforcement learning to detect brain lesions on MRI: a proof-of-concept application of reinforcement learning to medical images
+
+- [[Abstract]]
+	- Purpose: AI in radiology is hindered chiefly by: 1) Requiring large annotated data sets. 2) Non-generalizability that limits deployment to new scanners / institutions. And 3) Inadequate explainability and interpretability. We believe that reinforcement learning can address all three shortcomings, with robust and intuitive algorithms trainable on small datasets. To the best of our knowledge, reinforcement learning has not been directly applied to computer vision tasks for radiological images. In this proof-of-principle work, we train a deep reinforcement learning network to predict brain tumor location. Materials and Methods: Using the BraTS brain tumor imaging database, we trained a deep Q network on 70 post-contrast T1-weighted 2D image slices. We did so in concert with image exploration, with rewards and punishments designed to localize lesions. To compare with supervised deep learning, we trained a keypoint detection convolutional neural network on the same 70 images. We applied both approaches to a separate 30 image testing set. Results: Reinforcement learning predictions consistently improved during training, whereas those of supervised deep learning quickly diverged. Reinforcement learning predicted testing set lesion locations with 85% accuracy, compared to roughly 7% accuracy for the supervised deep network. Conclusion: Reinforcement learning predicted lesions with high accuracy, which is unprecedented for such a small training set. We believe that reinforcement learning can propel radiology AI well past the inherent limitations of supervised deep learning, with more clinician-driven research and finally toward true clinical applicability.
+- [[Attachments]]
+	- [arXiv.org Snapshot](https://arxiv.org/abs/2008.02708) {{zotero-imported-file G5XBZ6KK, "2008.html"}}
+	- [Stember_Shalu_2020_Deep reinforcement learning to detect brain lesions on MRI.pdf](https://arxiv.org/pdf/2008.02708.pdf) {{zotero-imported-file Z5QZMSZD, "Stember_Shalu_2020_Deep reinforcement learning to detect brain lesions on MRI.pdf"}}
