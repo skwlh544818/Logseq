@@ -139,6 +139,7 @@ date:: [[Jun 28th, 2022]]
 			- 状态和行动的设计大大影响到分割的精度
 			- 状态设计使得智能体只能观察到局部或者全局的信息
 				- TODO  使得智能体同时观察到两种信息
+	- 医学图像分割是将医学图像中感兴趣的结构从背景中分离出来的过程。它在医学诊断、手术规划和治疗等领域都有广泛的应用。医学图像分割可以基于不同的标准进行分类，比如根据分割的目标（器官、组织、肿瘤等）进行分类，或者根据使用的方法和算法进行分类。常用的医学图像分割方法包括基于阈值的分割、边缘检测和基于区域的分割等。随着深度学习技术的发展，基于神经网络的医学图像分割也成为了一种热门的方法。
 - ## 3. 医学图像分类
 	- ### 3.1 有限标注训练
 		- [[@Deep reinforcement learning-based image classification achieves perfect testing set accuracy for MRI brain tumors with a training set of only 30 images]]、 [[@Deep Reinforcement Learning with Automated Label Extraction from Clinical Reports Accurately Classifies 3D MRI Brain Volumes]]
@@ -234,4 +235,5 @@ date:: [[Jun 28th, 2022]]
 	- 使用分层强化学习来处理高维的3D数据或者是4D的跟踪数据
 	- 对强化学习使用迁移学习
 -
+- 写个总结
 -
