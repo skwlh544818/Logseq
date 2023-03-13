@@ -12,6 +12,7 @@ date:: [[Jun 28th, 2022]]
 
 - [[Abstract]]
 	- Motivation: Medical image analysis involves tasks to assist physicians in qualitative and quantitative analysis of lesions or anatomical structures, significantly improving the accuracy and reliability of diagnosis and prognosis. Traditionally, these tasks are finished by physicians or medical physicists and lead to two major problems: (i) low efficiency; (ii) biased by personal experience. In the past decade, many machine learning methods have been applied to accelerate and automate the image analysis process. Compared to the enormous deployments of supervised and unsupervised learning models, attempts to use reinforcement learning in medical image analysis are scarce. This review article could serve as the stepping-stone for related research. Significance: From our observation, though reinforcement learning has gradually gained momentum in recent years, many researchers in the medical analysis field find it hard to understand and deploy in clinics. One cause is lacking well-organized review articles targeting readers lacking professional computer science backgrounds. Rather than providing a comprehensive list of all reinforcement learning models in medical image analysis, this paper may help the readers to learn how to formulate and solve their medical image analysis research as reinforcement learning problems. Approach & Results: We selected published articles from Google Scholar and PubMed. Considering the scarcity of related articles, we also included some outstanding newest preprints. The papers are carefully reviewed and categorized according to the type of image analysis task. We first review the basic concepts and popular models of reinforcement learning. Then we explore the applications of reinforcement learning models in landmark detection. Finally, we conclude the article by discussing the reviewed reinforcement learning approaches' limitations and possible improvements.
+		-
 - [[Attachments]]
 	- [ResearchGate Link](https://www.researchgate.net/publication/361630620_Reinforcement_Learning_in_Medical_Image_Analysis_Concepts_Applications_Challenges_and_Future_Directions)
 - ## 1. 医学图像检测
@@ -234,5 +235,4 @@ date:: [[Jun 28th, 2022]]
 	- 为医学图像任务设计出环境的内部模型，使用基于模型的深度强化学习
 	- 使用分层强化学习来处理高维的3D数据或者是4D的跟踪数据
 	- 对强化学习使用迁移学习
--
 -
