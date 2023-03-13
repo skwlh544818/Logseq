@@ -236,5 +236,11 @@ date:: [[Jun 28th, 2022]]
 	- 使用分层强化学习来处理高维的3D数据或者是4D的跟踪数据
 	- 对强化学习使用迁移学习
 	-
-- ## 7. 头脑风暴】
--
+- ## 7. 头脑风暴
+	- 1. Developing a platform or software that incorporates reinforcement learning for medical image analysis to help physicians diagnose and treat patients more efficiently and accurately.
+	- 2. Creating a comprehensive online course that teaches medical professionals how to understand and apply reinforcement learning principles for image analysis in clinical settings.
+	- 3. Conducting a comparative study that evaluates the effectiveness of supervised, unsupervised, and reinforcement learning models for medical image analysis to identify which is most appropriate for different types of images and medical conditions.
+	- 4. Organizing a conference or workshop that brings together computer science experts and medical professionals to discuss and share ideas on how to advance the application of reinforcement learning in medical image analysis.
+	- 5. Developing a mobile app that allows physicians to easily access and review reinforcement learning models for medical image analysis on-the-go.
+	- 6. Researching and developing new reinforcement learning models that are specifically tailored to the medical image analysis context to improve accuracy and efficiency.
+	- 7. Conducting a large-scale survey of medical professionals to determine their current level of knowledge and understanding of reinforcement learning, and to identify areas where further education and training are needed.
