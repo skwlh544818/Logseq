@@ -42,4 +42,4 @@ links:: [Local library](zotero://select/library/items/K85IPVTQ), [Web library](h
 	  
 	  Referred in [注释 (2022/10/11 下午6:20:07)](zotero://note/u/JPH6GU2C/?ignore=1)
 - 综述将进化强化学习分为了几个不同的内容主题：
-	- 1. 为了提高性能使用进化策略，这一部分是最主要的内容，比如 /
+	- 1. 为了提高性能使用进化策略，这一部分是最主要的内容，比如ERL、PDERL等内容
