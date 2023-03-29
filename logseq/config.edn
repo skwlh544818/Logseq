@@ -168,6 +168,7 @@
  :graph/settings {:journal? false, :builtin-pages? false, :excluded-pages? false, :orphan-pages? false}
  :favorites []
  :zotero/settings-v2 {"default" {:type-id "8746250", :notes-block-text "[[Notes]]", :zotero-linked-attachment-base-directory "D:\\zotero", :zotero-data-directory "D:\\zotero", :overwrite-mode? false, :extra-tags "", :page-insert-prefix "@"}}
+ :feature/enable-whiteboards? true
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
