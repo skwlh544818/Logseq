@@ -55,4 +55,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 6428343a-7c12-4366-81d8-1cf9bde7fae9
 	- 对于ES算法应用到RL任务中，提高样本效率：
 	- 1. 多样性搜索方向采样
-	  2. 充分利用以前的
+	  2. 充分利用以前的样本
