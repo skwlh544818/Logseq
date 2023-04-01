@@ -45,4 +45,5 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 64282e1a-af68-4b5c-9a11-1c5238c6732f
   hl-color:: red
 	- 可以研究的点：
-	- 1.
+	- 1. 开发综合考虑有效性和效率的评估指标；
+	  2. 探索可以有效搜索
