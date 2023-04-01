@@ -7,3 +7,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 6428208d-bdee-4690-b63f-4379b6710caf
 	- EC对于具有众多局部最优解的复杂问题特别有用，并且适用于没有梯度信息的问题
+- However, HPO for RL faces several challenges.
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 64282758-a26d-40b4-b5c1-d420da3a1e5a
+	- 1
