@@ -150,4 +150,4 @@
                           :page 7},
                :content {:text "In the asynchronous PBT, only one ready individual is compared with a randomly selected individual from the remaining population in each generation, and then the worse individual copies the parameters and hyperparameters of the better individual and adds noise to its hyperparameters."},
                :properties {:color "yellow"}}],
- :extra {:page 7}}
+ :extra {:page 8}}
