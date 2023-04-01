@@ -21,3 +21,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 64282a2a-95e7-4006-a450-040de48098f6
 	- 达尔文进化的缺点，每次都要初始化，会损失前几代中的知识
+- In the asynchronous PBT, only one ready individual is compared with a randomly selected individual from the remaining population in each generation, and then the worse individual copies the parameters and hyperparameters of the better individual and adds noise to its hyperparameters.
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 64282b2a-c265-4fa6-8c9e-f0e53152c51e
+	-
