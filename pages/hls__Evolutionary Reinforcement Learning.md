@@ -53,4 +53,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 9
   hl-color:: yellow
   id:: 6428343a-7c12-4366-81d8-1cf9bde7fae9
-	-
+	- 对于ES算法应用到RL任务中
