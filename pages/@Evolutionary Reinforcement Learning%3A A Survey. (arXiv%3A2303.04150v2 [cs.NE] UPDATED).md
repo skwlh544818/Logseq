@@ -58,4 +58,4 @@ title:: @Evolutionary Reinforcement Learning: A Survey. (arXiv:2303.04150v2 [cs.
 	     I(θ) = -E[H(θ)]
 	  
 	  在实际操作中，可以使用数值方法来近似计算Hessian矩阵和Fisher信息矩阵。
--
+- GP的计算
