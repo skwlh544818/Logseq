@@ -27,8 +27,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 64282b2a-c265-4fa6-8c9e-f0e53152c51e
 	- 异步PBT算法的迭代步骤，拉马克进化算法
-- Moreover, [58] has proposed a collection of benchmarks derived from hyperparameter optimization to verify the performance of quality diversity methods. 
+- Moreover, [58] has proposed a collection of benchmarks derived from hyperparameter optimization to verify the performance of quality diversity methods.
   ls-type:: annotation
   hl-page:: 8
   hl-color:: yellow
   id:: 64282d29-6f48-4e6a-8e8a-4d9d554ae3e1
+	-
