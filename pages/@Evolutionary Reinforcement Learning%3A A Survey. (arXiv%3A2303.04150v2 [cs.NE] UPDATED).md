@@ -58,4 +58,5 @@ title:: @Evolutionary Reinforcement Learning: A Survey. (arXiv:2303.04150v2 [cs.
 	     I(θ) = -E[H(θ)]
 	  
 	  在实际操作中，可以使用数值方法来近似计算Hessian矩阵和Fisher信息矩阵。
-- GP的计算
+- GP的计算：
+	- 搜索空间由一组程序组成，这些程序用各种编码方式表示，**如抽象语法树、可执行图（如笛卡尔GP和纠结程序图）、有限状态机和上下文自由语法等等[28]。**
