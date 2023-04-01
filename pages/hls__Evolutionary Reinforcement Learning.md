@@ -40,7 +40,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 64282dc5-31de-4672-a912-433c0beed327
 	- 超参数优化面临的问题，比如缺乏全面的性能指标以及高效的收敛速度，以及面临的时一个组合优化问题。
 - focus on developing comprehensive evaluation metrics that consider both effectiveness and efficiency.
-  ls-type:: annotation
   hl-page:: 8
-  hl-color:: red
+  ls-type:: annotation
   id:: 64282e1a-af68-4b5c-9a11-1c5238c6732f
+  hl-color:: red
+	- 可以研究的点：
+	- 1.
