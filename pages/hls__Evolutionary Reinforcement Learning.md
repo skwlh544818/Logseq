@@ -48,3 +48,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
 	- 1. 开发综合考虑有效性和效率的评估指标；
 	  2. 探索可以有效搜索高位和组合搜索空间的EC方法
 	  3. 结合不同的HPO方法来提高优化过程的整体效率以及有效性
+- sampling from diverse search directions and making full use of previous samples.
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 6428343a-7c12-4366-81d8-1cf9bde7fae9
+	-
