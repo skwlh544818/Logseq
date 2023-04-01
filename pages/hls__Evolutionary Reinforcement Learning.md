@@ -26,4 +26,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 7
   hl-color:: yellow
   id:: 64282b2a-c265-4fa6-8c9e-f0e53152c51e
-	- 异步PBT算法的迭代步骤
+	- 异步PBT算法的迭代步骤，拉马克进化算法
