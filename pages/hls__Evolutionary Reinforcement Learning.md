@@ -33,3 +33,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 64282d29-6f48-4e6a-8e8a-4d9d554ae3e1
 	- 超参数优化也和质量多样性有关
+- However, the current literature on HPO still faces several challenges, such as the lack of comprehensive performance metrics and the need for efficient convergence speed. Additionally, selecting hyperparameters from a large number of options is a combinatorial optimization problem that brings new challenges to EC methods.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64282dc5-31de-4672-a912-433c0beed327
+	- 超参数优化面临的问题，比如缺乏全面的性能指标以及
