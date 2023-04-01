@@ -15,3 +15,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
 	- 1. 性能评估代价比较昂贵；
 	  2. 搜索空间比较复杂，混合编码、高维度以及非凸性
 	  3. 需要多个目标进行权衡。
+- Nonetheless, the Darwinian evolutionary methods are inefficient since parameters are reinitialized in each generation, causing a loss of knowledge already acquired during previous generations.
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 64282a2a-95e7-4006-a450-040de48098f6
+	- 达尔文进化的缺点，每次都要初始化，会损失前几代中的知识
