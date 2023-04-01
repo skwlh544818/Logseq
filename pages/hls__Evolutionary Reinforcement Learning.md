@@ -12,4 +12,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 6
   hl-color:: yellow
   id:: 64282758-a26d-40b4-b5c1-d420da3a1e5a
-	- 1
+	- 1.
