@@ -46,4 +46,5 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: red
 	- 可以研究的点：
 	- 1. 开发综合考虑有效性和效率的评估指标；
-	  2. 探索可以有效搜索
+	  2. 探索可以有效搜索高位和组合搜索空间的EC方法
+	  3. 结合不同的HPO方法来提高优化过程的整体效率以及有效性
