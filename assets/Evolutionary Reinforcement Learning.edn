@@ -401,4 +401,4 @@
                           :page 19},
                :content {:text "he first version, NS-ES, replaces the gradients of expected rewards with the gradients of expected novelty, and the other two versions, NSR-ES and NSRA-ES, trade off the gradients of expected rewards and novelty [6]."},
                :properties {:color "yellow"}}],
- :extra {:page 19}}
+ :extra {:page 20}}
