@@ -63,3 +63,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 6428e2ad-f42f-45be-86a5-305a3078a865
 	- 这是对于神经网络进行交叉的两种方法比较常用的时Q过滤蒸馏交叉
 -
+- Empirical studies demonstrated that NS can bring unique advantages over fitness-based EC methods in overriding the deceptiveness of most fitness functions and making the evolutionary process more open-ended.
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: yellow
+  id:: 64295a82-8d0c-4490-b708-560bfad077fe
+	- NS在欺骗性奖励以及开放性搜索过程中具有优势。
