@@ -69,3 +69,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 64295a82-8d0c-4490-b708-560bfad077fe
 	- NS在欺骗性奖励以及开放性搜索过程中具有优势。
+- The first version, NS-ES, replaces the gradients of expected rewards with the gradients of expected novelty, and the other two versions, NSR-ES and NSRA-ES, trade off the gradients of expected rewards and novelty [6].
+  hl-page:: 19
+  ls-type:: annotation
+  id:: 64295b8c-33fc-40bb-8743-0291b7b76eb9
+  hl-color:: yellow
+	- 目的就是在这里
