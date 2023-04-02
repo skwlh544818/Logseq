@@ -74,4 +74,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 64295b8c-33fc-40bb-8743-0291b7b76eb9
   hl-color:: yellow
-	- 目的就是在这里
+	- 想要改进的目的就是在这里，这里应该也可以将GAN网络的梯度与新颖性搜索的梯度一块进行衡量。
