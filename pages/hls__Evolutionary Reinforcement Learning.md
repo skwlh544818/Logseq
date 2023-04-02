@@ -56,3 +56,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
 	- 对于ES算法应用到RL任务中，提高样本效率：
 	- 1. 多样性搜索方向采样
 	  2. 充分利用以前的样本
+- such as the state-space crossover [122], the Q-filtered distillation crossover [123],
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 6428e2ad-f42f-45be-86a5-305a3078a865
+	- 这是对于神经网络进行交叉的
