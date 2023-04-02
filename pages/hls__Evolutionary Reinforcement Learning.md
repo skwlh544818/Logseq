@@ -75,3 +75,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 64295b8c-33fc-40bb-8743-0291b7b76eb9
   hl-color:: yellow
 	- 想要改进的目的就是在这里，这里应该也可以将GAN网络的梯度与新颖性搜索的梯度一块进行衡量。
+- Additionally, it may be beneficial to explore hybrid methods that combine EC and gradient-based methods to leverage the strengths of both methods.
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 64297a89-7fd7-496f-a3c5-1ee838e5cb7d
+	- 结合
