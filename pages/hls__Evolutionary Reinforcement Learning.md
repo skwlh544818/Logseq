@@ -116,4 +116,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 642a6d69-c96a-4886-9427-de1656a8d3cd
   hl-color:: red
-	- 改进效果六：
+	- 改进效果六：将策略网络划分成更细的部分，可以
