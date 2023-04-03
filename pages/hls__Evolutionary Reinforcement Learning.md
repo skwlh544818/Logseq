@@ -87,3 +87,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 642a629b-3aa9-4362-a008-aa97b94b6afb
   hl-color:: yellow
 	- 改进效果一：可以考虑开发人类可以理解的编码和应用于ES的高效编码，可以从信息理论以及统计学习理论的见解中受益。
+- Efficient sampling from the decision space is advantageous for ESs, but it has not been thoroughly investigated in GAs or GP based methods.
+  hl-page:: 32
+  ls-type:: annotation
+  id:: 642a641c-b5e3-4c36-829d-aee9eac66d30
+  hl-color:: red
+	- 对于GA以及GP的算法
