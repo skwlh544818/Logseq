@@ -105,3 +105,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: red
   id:: 642a6ba2-ac4d-4fa0-8ab8-d9b1e31d4e96
 	- 改进效果四：使用迁移学习以及代替梯度的方法进行变异。
+- while discarding less promising ones. Finally, more search operators can be borrowed from EC (e.g., DE[237], PSO [238], and CSO [239]) to investigate their effectiveness for RL tasks.
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: red
+  id:: 642a6ce1-036a-49f2-9cb3-1af7e0c104be
+	- 改进效果五
