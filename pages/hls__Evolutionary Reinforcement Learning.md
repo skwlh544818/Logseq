@@ -116,4 +116,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 642a6d69-c96a-4886-9427-de1656a8d3cd
   hl-color:: red
-	- 改进效果六：将策略网络划分成更细的部分，可以
+	- 改进效果六：将策略网络划分成更细的部分，分而治之，实现不同组件的并行计算，确实一个比较好的内容，比如胶囊网络。
