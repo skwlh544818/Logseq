@@ -110,4 +110,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 33
   hl-color:: red
   id:: 642a6ce1-036a-49f2-9cb3-1af7e0c104be
-	- 改进效果五
+	- 改进效果五：使用EC算法中的搜索算子来验证对RL任务的有效性
