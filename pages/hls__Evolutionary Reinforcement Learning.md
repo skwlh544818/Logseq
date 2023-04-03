@@ -111,3 +111,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: red
   id:: 642a6ce1-036a-49f2-9cb3-1af7e0c104be
 	- 改进效果五：使用EC算法中的搜索算子来验证对RL任务的有效性
+- If the policy can be divided into components at a finer granularity, various functional modules can be automatically discovered using cooperative cooperation methods.
+  hl-page:: 33
+  ls-type:: annotation
+  id:: 642a6d69-c96a-4886-9427-de1656a8d3cd
+  hl-color:: red
+	- 改进效果六：
