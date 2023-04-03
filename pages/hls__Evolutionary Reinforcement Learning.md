@@ -99,3 +99,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 642a68f8-a314-4eb8-a1ad-9fe118f39480
   hl-color:: yellow
 	- 改进效果三：需要在ES算法中开发与GA算法中的采样技巧。
+- Besides topology distillation and gradient sensitive variation through imitation learning and distillation, more methods or techniques can be employed to improve the efficiency of variational operators, such as transfer learning and surrogate gradient methods.
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: red
+  id:: 642a6ba2-ac4d-4fa0-8ab8-d9b1e31d4e96
+	- 改进效果四：使用迁移学习以及代替梯度的方法
