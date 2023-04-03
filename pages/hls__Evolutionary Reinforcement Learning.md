@@ -125,3 +125,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
 	- 改进效果七：引入EC的梯度信息，开发on-policy的EVO-RL算法
 	- 将PBT算法改成组合优化问题，将EC应用到超参数选择以及优化框架，实现端到端的HPO算法。
 -
+- In addition to surrogateassisted methods and rank-based fitness shaping, other techniques such as transfer learning, metalearning, and Bayesian optimization can be explored to reduce the number of interactions with the environment and improve the efficiency of evaluation.
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: red
+  id:: 642a73d2-698b-4b75-afbd-ada9f392c906
+	- 改进效果八：使用迁移学习、
