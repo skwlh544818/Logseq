@@ -93,3 +93,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 642a641c-b5e3-4c36-829d-aee9eac66d30
   hl-color:: red
 	- 改进效果二：对于GA以及GP算法，可以改进一下在决策空间的采样方式。
+- Hence, more efficient techniques need to be introduced into ESs. Furthermore, it remains to be investigated whether these techniques are feasible in GAs.
+  hl-page:: 33
+  ls-type:: annotation
+  id:: 642a68f8-a314-4eb8-a1ad-9fe118f39480
+  hl-color:: yellow
+	- 需要在ES算法中开发与
