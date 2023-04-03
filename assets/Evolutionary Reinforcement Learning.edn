@@ -500,4 +500,4 @@
                           :page 32},
                :content {:text "fficient sampling from the decision space is advantageous for ESs, but it has not been thoroughly investigated in GAs or GP based methods."},
                :properties {:color "red"}}],
- :extra {:page 32}}
+ :extra {:page 33}}
