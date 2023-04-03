@@ -92,4 +92,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 642a641c-b5e3-4c36-829d-aee9eac66d30
   hl-color:: red
-	- 对于GA以及GP的算法
+	- 改进效果二：对于GA以及GP算法，可以改进一下在决策空间的采样方式。/
