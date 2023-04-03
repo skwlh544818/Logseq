@@ -123,3 +123,5 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: red
   id:: 642a702b-7668-4406-9f13-f636d9150c00
 	- 改进效果七：引入EC的梯度信息，开发on-policy的EVO-RL算法
+	- 将PBT算法改成组合优化问题，将EC应用到超参数选择以及优化框架，实现端到端的HPO算法。
+-
