@@ -86,4 +86,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 642a629b-3aa9-4362-a008-aa97b94b6afb
   hl-color:: yellow
-	- 改进效果一：可以考虑开发人类可以理解的编码和应用于ES的高效编码
+	- 改进效果一：可以考虑开发人类可以理解的编码和应用于ES的高效编码，可以从信息理论以及统计学习理论的
