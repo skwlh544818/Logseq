@@ -81,8 +81,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: yellow
   id:: 64297a89-7fd7-496f-a3c5-1ee838e5cb7d
 	- 结合进化算法以及基于梯度的方法可以是有改进好处的
-- espite these indirect encodings, the development of efficient encoding schemes is still limited. T
-  ls-type:: annotation
+- Despite these indirect encodings, the development of efficient encoding schemes is still limited. 
   hl-page:: 32
-  hl-color:: yellow
+  ls-type:: annotation
   id:: 642a629b-3aa9-4362-a008-aa97b94b6afb
+  hl-color:: yellow
+	- 改进效果一：可以考虑开发人类可以理解的编码和应用于ES的高效编码
