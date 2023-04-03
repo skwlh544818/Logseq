@@ -117,3 +117,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   id:: 642a6d69-c96a-4886-9427-de1656a8d3cd
   hl-color:: red
 	- 改进效果六：将策略网络划分成更细的部分，分而治之，实现不同组件的并行计算，确实一个比较好的内容，比如胶囊网络。
+- .If gradient information of EC can be introduced, the training efficiency of RL algorithms can be improved. Additionally, more effort is needed to develop frameworks for on-policy RL algorithms. Although PBT is effective, selecting optimized hyperparameters from a large number of hyperparameters is challenging. This issue can be formulated as a combinatorial optimization problem, and then EC can be applied to the whole framework of hyperparameter selection and optimization to realize end-to-end automated HPO.
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: red
+  id:: 642a702b-7668-4406-9f13-f636d9150c00
+	-
