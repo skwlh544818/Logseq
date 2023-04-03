@@ -122,4 +122,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 33
   hl-color:: red
   id:: 642a702b-7668-4406-9f13-f636d9150c00
-	-
+	- 改进效果七：引入EC的梯度信息，开发on-policy的EVO-RL算法
