@@ -130,4 +130,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-page:: 34
   hl-color:: red
   id:: 642a73d2-698b-4b75-afbd-ada9f392c906
-	- 改进效果八：使用迁移学习、
+	- 改进效果八：使用迁移学习、元学习以及贝叶斯优化等方法来进行评估
