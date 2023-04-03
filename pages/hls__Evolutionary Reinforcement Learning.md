@@ -98,4 +98,4 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   ls-type:: annotation
   id:: 642a68f8-a314-4eb8-a1ad-9fe118f39480
   hl-color:: yellow
-	- 需要在ES算法中开发与
+	- 改进效果三：需要在ES算法中开发与GA算法中的采样技巧。
