@@ -131,3 +131,9 @@ file-path:: file://D:\zotero/storage/D9RNX9BS/Evolutionary Reinforcement Learnin
   hl-color:: red
   id:: 642a73d2-698b-4b75-afbd-ada9f392c906
 	- 改进效果八：使用迁移学习、元学习以及贝叶斯优化等方法来进行评估
+- On the other hand, multi-objective EvoRL methods and quality diversity EvoRL methods do not have tailored benchmarks.
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 642a7485-5018-48bd-812a-4edc7b6915db
+	- 这个倒是可以反向参考GAN网络那边的基准设计，设计一个有关质量
