@@ -25,4 +25,4 @@ file-path:: file://D:\zotero/storage/J8LIEAD8/Wang 等 - 2019 - Evolutionary gen
   hl-page:: 2
   hl-color:: yellow
   id:: 64326c55-d184-4ee6-b3d7-825423edd106
-	- 这句话的意思应该是使用不同的损失函数
+	- 这句话的意思应该是使用不同的损失函数计算梯度作为变异的操作。这个是不是可以应用到进化强化学习里面
