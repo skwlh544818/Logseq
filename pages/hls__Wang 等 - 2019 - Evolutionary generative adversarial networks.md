@@ -14,3 +14,9 @@ file-path:: file://D:\zotero/storage/J8LIEAD8/Wang 等 - 2019 - Evolutionary gen
   id:: 642c2ab3-dfba-48be-b54d-622064be3c5e
   hl-color:: yellow
 	- 进化GAN可以解决这个问题
+- For example, although measuring Kullback-Leibler divergence largely eliminates the vanishing gradient issue, it easily results in mode collapse [ 24 , 1]. Likewise, Wasserstein distance greatly improves training stability but can have non-convergent limit cycles near equilibrium [21].
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 64326a61-c553-45cc-9282-e7e928d5d886
+	- 不同的损失函数或者说是两者分布的距离会带来不同的优缺点
