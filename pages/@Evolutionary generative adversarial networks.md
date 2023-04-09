@@ -25,6 +25,6 @@ links:: [Local library](zotero://select/library/items/WT9XWB6B), [Web library](h
 	- [Snapshot](https://ieeexplore.ieee.org/abstract/document/8627945/) {{zotero-imported-file 99JEF7ZP, "8627945.html"}}
 	- [Full Text](https://arxiv.org/pdf/1803.00657) {{zotero-imported-file J8LIEAD8, "Wang 等 - 2019 - Evolutionary generative adversarial networks.pdf"}}
 - 这个文章主要是将判别器和生成器分开作为环境和种群，在一次迭代中，判别器是固定不变的，对应的遗传算法的操作有三个：
-- 1. 变异：主要是使用
+- 1. 变异：主要是使用不同的的损失函数的梯度信息来进行变异操作，这里使用了三种变异操作
   2. 评估：
   3. 选择：
