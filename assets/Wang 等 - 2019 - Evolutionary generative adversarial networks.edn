@@ -126,4 +126,4 @@
                           :page 2},
                :content {:text "ifferent adversarial objective functions aim to minimize different distances between the generated distribution and the data distribution, leading to different mutations"},
                :properties {:color "yellow"}}],
- :extra {:page 9}}
+ :extra {:page 7}}
