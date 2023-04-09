@@ -20,3 +20,9 @@ file-path:: file://D:\zotero/storage/J8LIEAD8/Wang 等 - 2019 - Evolutionary gen
   hl-color:: yellow
   id:: 64326a61-c553-45cc-9282-e7e928d5d886
 	- 不同的损失函数或者说是两者分布的距离会带来不同的优缺点
+- ifferent adversarial objective functions aim to minimize different distances between the generated distribution and the data distribution, leading to different mutations
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 64326c55-d184-4ee6-b3d7-825423edd106
+	- 这句话的意思应该是使用不同的损失函数
