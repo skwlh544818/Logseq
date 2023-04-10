@@ -6,4 +6,4 @@ file-path:: file://D:\zotero/storage/TC4YBHU7/Li 等 - 2021 - Evolutionary Gener
   hl-page:: 1
   hl-color:: yellow
   id:: 64336c11-39ba-443e-95a7-d341bd1478aa
-	- 在 [[@Evolutionary generative adversarial networks]]的基础上增加了
+	- 在 [[@Evolutionary generative adversarial networks]]的基础上增加了在突变后的知识蒸馏算法，模仿最好的输出结果
